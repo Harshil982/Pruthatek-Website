@@ -1,0 +1,221 @@
+.CustomSDC{
+    margin: 100px 0 -25px;
+}
+
+/*  Information  */
+.CustomSDC .information{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.CustomSDC .information h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.CustomSDC .information p{
+    font-size: 16px;
+    color: var(--grey);
+}
+
+/*    Card Section    */
+.CustomSDC .Cards{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    column-gap: 70px;
+    margin: 40px 0 0;
+    padding: 0 7%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.CustomSDC .Cards::-webkit-scrollbar{
+    display: none;
+}
+
+/*   Card    */
+.CustomSDC .SDCcard{
+    padding: 20px 40px 35px;
+    align-items: flex-start;
+    row-gap: 12px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
+.CustomSDC .SDCcard img{
+    width: 90px;
+    margin: 50px 70px;
+    align-self: center;
+}
+.CustomSDC .SDCcard h3{
+    font-size: 18px;
+    color: var(--grey);
+    text-align: center;
+}
+.CustomSDC .SDCcard p{
+    font-size: 14px;
+    color: var(--grey);
+    
+}
+.CustomSDC .SDCcard a{
+    margin-top: 15px;
+    color: var(--drk-blue);
+    cursor: pointer;
+}
+
+/*  ::::: ----- Responsive Design ----- :::::   */
+/*  :::   1080p   :::  */
+@media(max-width: 1080px) {
+    .CustomSDC .information{
+        width: 85%;
+        margin-left: 7.5%;
+    }
+    .CustomSDC .Cards{
+        margin: 10px 0 0;
+    }
+}
+
+/*  :::   798px   :::  */
+@media(max-width: 798px) {
+    .CustomSDC .information{
+        margin-bottom: 10px;
+    }
+    .CustomSDC .Cards{
+        margin: 10px 0 0;
+        column-gap: 50px;
+    }
+    .CustomSDC .Cards .SDCcard {
+        padding: 15px 30px 25px;
+    }
+    .CustomSDC .information p{
+        font-size: 14px;
+    }
+}
+
+/*  :::   768px   :::  */
+@media(max-width: 768px) {
+    .CustomSDC .information{
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .CustomSDC .Cards{
+        margin: 10px 0 0;
+    }
+    .CustomSDC .Cards .SDCcard {
+        padding-bottom: 35px;
+    }
+    .CustomSDC .Cards .SDCcard img{
+        width: 70px;
+        margin: 40px 70px 30px;
+    }
+    .CustomSDC .Cards .SDCcard a{
+        margin-top: 7px;
+    }
+}
+
+/*  :::   520px   :::  */
+@media(max-width: 520px) {
+    .CustomSDC .information{
+        width: 82%;
+        margin: -8% 9% 0;
+    }
+    .CustomSDC .information h3{
+        font-size: 19px;
+    }
+    .CustomSDC .information p{
+        font-size: 13px;
+    }
+    .CustomSDC .Cards{
+        margin: -10px 0 0;
+    }
+    .CustomSDC .Cards .SDCcard {
+        padding: 12px 30px 25px;
+    }
+    .CustomSDC .Cards .SDCcard img{
+        width: 70px;
+        margin: 40px 70px 30px;
+    }
+    .CustomSDC .Cards .SDCcard h3{
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+/*  :::   425px   :::  */
+@media(max-width: 425px) {
+    .CustomSDC .information{
+        width: 80%;
+        margin: -10% 10% -20px;
+    }
+    .CustomSDC .information h3{
+        font-size: 19px;
+    }
+    .CustomSDC .information p{
+        font-size: 12px;
+    }
+}
+
+/*  :::   375px   :::  */
+@media(max-width: 375px) {
+    html{
+        border: 1px solid #f00;
+    }
+    .CustomSDC .information{
+        width: 80%;
+        margin: -15% 10% -20px;
+    }
+    .CustomSDC .information h3{
+        font-size: 18px;
+    }
+    .CustomSDC .information p{
+        font-size: 11.5px;
+    }
+    .CustomSDC .Cards .SDCcard {
+        padding: 12px 25px 30px;
+    }
+    .CustomSDC .Cards .SDCcard h3{
+        font-size: 16px;
+        text-align: left;
+    }
+    .CustomSDC .Cards .SDCcard p{
+        font-size: 12px;
+    }
+    .CustomSDC .Cards .SDCcard a{
+        font-size: 15px;
+    }
+}
+
+/*  :::   320px   :::  */
+@media(max-width: 320px) {
+    .CustomSDC .information{
+        width: 80%;
+        margin: -17% 10% -35px;
+    }
+    .CustomSDC .information h3{
+        font-size: 17px;
+    }
+    .CustomSDC .information p{
+        font-size: 11px;
+    }
+    .CustomSDC .Cards{
+        column-gap: 40px;
+    }
+    .CustomSDC .Cards .SDCcard {
+        padding: 12px 25px 30px;
+    }
+    .CustomSDC .Cards .SDCcard h3{
+        font-size: 14px;
+        text-align: left;
+    }
+    .CustomSDC .Cards .SDCcard p{
+        font-size: 12px;
+    }
+    .CustomSDC .Cards .SDCcard a{
+        font-size: 13px;
+    }
+    .CustomSDC .Cards .SDCcard img{
+        width: 60px;
+        margin: 30px 60px 20px;
+    }
+}

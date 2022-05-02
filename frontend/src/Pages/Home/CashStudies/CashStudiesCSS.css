@@ -1,0 +1,199 @@
+.cash-studies{
+    height: 100vh;
+}
+
+/*  Information  */
+.cash-studies .information{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.cash-studies .information h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.cash-studies .information p{
+    font-size: 16px;
+    color: var(--grey);
+}
+
+/*  Image Slider   */
+.cash-studies .imageSlider,
+.cash-studies .hoverImages{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 50px 0 20px;
+    padding: 0 5%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.cash-studies .imageSlider::-webkit-scrollbar,
+.cash-studies .hoverImages::-webkit-scrollbar{
+    display: none;
+}
+
+.cash-studies .imageSlider img{
+    height: 60vh;
+}
+
+.cash-studies .hoverImages{
+    column-gap: 80px;
+    margin: 40px 0 0;
+    padding: 0 6%;
+}
+.cash-studies .hoverImages img{
+    width: 100px;
+    cursor: pointer;
+}
+.cash-studies .hoverImages .colorImg{
+    display: none;
+    
+}
+
+/*  -----   Images Changing using CSS   -----   */
+
+/*  1st Image Nike  */
+.cash-studies .hoverImages .blackImg:nth-child(1):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(1):hover ~ .colorImg:nth-child(2){
+    display: block;
+}
+
+/*  2nd Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(3):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(3):hover ~ .colorImg:nth-child(4){
+    display: block;
+}
+
+/*  3rd Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(5):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(5):hover ~ .colorImg:nth-child(6){
+    display: block;
+}
+
+/*  4th Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(7):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(7):hover ~ .colorImg:nth-child(8){
+    display: block;
+}
+
+/*  5th Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(9):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(9):hover ~ .colorImg:nth-child(10){
+    display: block;
+}
+
+/*  6th Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(11):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(11):hover ~ .colorImg:nth-child(12){
+    display: block;
+}
+
+/*  7th Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(13):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(13):hover ~ .colorImg:nth-child(14){
+    display: block;
+}
+
+/*  8th Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(15):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(15):hover ~ .colorImg:nth-child(16){
+    display: block;
+}
+
+/*  9th Image PTI  */
+.cash-studies .hoverImages .blackImg:nth-child(17):hover{
+    display: none;
+}
+.cash-studies .hoverImages .blackImg:nth-child(17):hover ~ .colorImg:nth-child(18){
+    display: block;
+}
+
+/*  ::::: ----- Responsive Design ----- :::::   */
+/*  :::   998px   :::  */
+@media(max-width: 998px) {
+    .cash-studies .information h3{
+        margin-bottom: 7px;
+    }
+}
+
+/*  :::   798px   :::  */
+@media(max-width: 798px) {
+    .cash-studies{
+        margin-top: 20px;
+    }
+    .cash-studies .information p{
+        font-size: 14.8px;
+    }
+    .cash-studies .hoverImages{
+        column-gap: 60px;
+        margin: 30px 0;
+    }
+}
+
+/*  :::   520px   :::  */
+@media(max-width: 520px) {
+    .cash-studies{
+        margin-top: 70px;
+    }
+    .cash-studies .information{
+        margin-bottom: -20px;
+    }
+    .cash-studies .information h3{
+        font-size: 20px;
+    }
+    .cash-studies .information p{
+        font-size: 14px;
+    }
+    .cash-studies .imageSlider img{
+        height: 50vh;
+    }
+    .cash-studies .hoverImages{
+        column-gap: 50px;
+        margin: 25px 0;
+    }
+}
+
+/*  :::   425px   :::  */
+@media(max-width: 425px) {
+    .cash-studies{
+        margin-top: 70px;
+        margin-bottom: 5px;
+    }
+    .cash-studies .hoverImages img{
+        width: 85px;
+    }
+}
+
+/*  :::   375px   :::  */
+@media(max-width: 375px) {
+    .cash-studies{
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    .cash-studies .information h3{
+        font-size: 19px;
+    }
+    .cash-studies .information p{
+        font-size: 13px;
+    }
+    .cash-studies .hoverImages img{
+        width: 80px;
+    }
+}

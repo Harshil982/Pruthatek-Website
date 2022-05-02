@@ -1,0 +1,255 @@
+.planning-business{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 30% 45%;
+}
+.planning-business .image{
+    margin-left: 25%;
+    display: flex;
+    align-items: flex-end;
+}
+.planning-business img{
+    width: 320px;
+    height: 520px;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+}
+
+.planning-business .content{
+    margin-left: 130px;
+    align-items: flex-start;
+    color: var(--black);
+}
+.planning-business h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.planning-business h1{
+    font-size: 50px;
+    color: var(--drk-blue);
+}
+.planning-business p{
+    font-size: 12px;
+    margin: 10px 0 40px;
+}
+.planning-business button{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, var(--yellow) , var(--drk-blue) 80%);
+    font-size: 16px;
+    color: #FFF;
+}
+
+/*  ::::: ----- Responsive Design ----- :::::   */
+/*  :::   1440px   :::  */
+@media(max-width: 1440px) {
+    .planning-business .image{
+        margin-left: 30%;
+    }
+    .planning-business .image img{
+        height: 80vh;
+        width: 27vw;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+    }
+    .planning-business .content{
+        margin-left: 190px;
+        margin-top: 100px;
+        width: 70%;
+    }
+
+    .planning-business h3{
+        font-size: 34px;
+    }
+    .planning-business h1{
+        font-size: 60px;
+    }
+    .planning-business p{
+        font-size: 16px;
+    }
+    .planning-business button{
+        padding: 17px 45px;
+        border-radius: 25px;
+        font-size: 18px;
+    }
+}
+
+/*  :::   1080p   :::  */
+@media(max-width: 1080px) {
+    .planning-business .image{
+        margin-left: 28%;
+    }
+    .planning-business .content{
+        margin-left: 170px;
+        margin-top: 70px;
+    }
+}
+
+/*  :::   1024px   :::  */
+@media(max-width: 1024px) {
+    .planning-business .image{
+        margin-left: 30%;
+    }
+    .planning-business .image img{
+        height: 80vh;
+        width: 330px;
+    }
+    .planning-business .content{
+        margin-left: 190px;
+        margin-top: 100px;
+        width: 70%;
+    }
+
+    .planning-business h3{
+        font-size: 30px;
+    }
+    .planning-business h1{
+        font-size: 50px;
+    }
+    .planning-business p{
+        font-size: 14px;
+    }
+    .planning-business button{
+        padding: 14px 42px;
+        border-radius: 25px;
+        font-size: 17px;
+    }
+}
+
+/*  :::   768px   :::  */
+@media(max-width: 768px) {
+    .planning-business .image img{
+        height: 78vh;
+        width: 250px;
+    }
+    .planning-business .content{
+        margin-left: 160px;
+        width: 80%;
+    }
+
+    .planning-business h3{
+        font-size: 20px;
+    }
+    .planning-business h1{
+        font-size: 40px;
+    }
+    .planning-business p{
+        font-size: 12px;
+    }
+    .planning-business button{
+        padding: 11px 38px;
+        font-size: 15px;
+    }
+}
+
+/*  :::   520px   :::  */
+@media(max-width: 520px) {
+    .planning-business{
+        overflow: hidden;
+    }
+    .planning-business .image{
+        height: 100vh;
+        width: 100vh;
+        margin: 0;
+    }
+    .planning-business .image img{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+    .planning-business .content{
+        margin: 106% 60%;
+        padding: 25px;
+        width: 220px;
+        height: fit-content;
+        color: var(--black);
+        border: none;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, .45);
+    }
+
+    .planning-business h3{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .planning-business h1{
+        font-size: 27px;
+        color: var(--drk-blue);
+        text-shadow: 0 0 3px rgba(255, 255, 255, 1);
+    }
+    .planning-business p{
+        font-size: 10px;
+    }
+    .planning-business button{
+        padding: 8px 26px;
+        font-size: 11.5px;
+    }
+}
+
+/*  :::   425px   :::  */
+@media(max-width: 425px) {
+    .planning-business .image{
+        height: 100vh;
+        width: 100vw;
+        margin: 42% 23%;
+    }
+    .planning-business .image img{
+        height: 100%;
+        width: fit-content;
+        border-radius: 0;
+    }
+    .planning-business .content{
+        margin: 129% 20%;
+        padding: 25px;
+        width: 220px;
+        height: fit-content;
+        color: var(--black);
+        border: none;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, .45);
+    }
+    .planning-business h3{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .planning-business h1{
+        font-size: 27px;
+        color: var(--drk-blue);
+        text-shadow: 0 0 3px rgba(255, 255, 255, 1);
+    }
+    .planning-business p{
+        font-size: 10px;
+    }
+    .planning-business button{
+        padding: 8px 26px;
+        font-size: 11.5px;
+    }
+}
+
+/*  :::   375px   :::  */
+@media(max-width: 375px) {
+    .planning-business .image{
+        height: 100vh;
+        width: 100vw;
+        margin: 42% 4%;
+    }
+    .planning-business .content{
+        margin: 149% 20%;
+    }
+}
+
+/*  :::   320px   :::  */
+@media(max-width: 320px) {
+    .planning-business .image{
+        height: 100vh;
+        width: 100vw;
+        margin: 42% 0;
+    }
+    .planning-business .content{
+        margin: 173% 0 0;
+    }
+}

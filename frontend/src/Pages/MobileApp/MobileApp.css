@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MobailApp{
+    margin: 10px 10px 10px 10px;
+}
+/**/
+.MobailTitle .MobailApp_Title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+  
+}
+.MobailAppParagraph >p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    
+    margin: 50px 200px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.UserExperienceTitle .UserTitle{
+   
+    font-family: 'Nunito Sans', sans-serif;
+   font-size: 20px;
+   font-weight: 800px;
+}
+.UserExperienceContaine .UserContaine{
+   
+    font-size: 13px;
+    font-weight: 300;
+    
+  
+    font-family: 'Nunito Sans', sans-serif;
+}
+.userUnderLine::after{
+    position: absolute ;
+    content: "" ;
+    width: 35px ;
+    height: 2px;
+    color: #000!important;
+    background-color:#1861AA!important;
+    transform: translateY(-50%);
+    
+   
+ }
+ .ImageMobail .MobailImage{
+    width: 420px;
+    height: 450px;
+ 
+ }
+ .domain-expertise{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:0;
+    margin-right:0;
+    justify-content: center;
+    align-items: center;
+}
+ .ma-features-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .ma-features-subtitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    
+  
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .des-items{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:15px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#56A645;
+}
+/*==================================*/
+.des-img{
+    object-fit:contain;
+    height:100px;
+    width:100px;
+    margin-bottom:20px;
+  
+}
+.des-items{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#56A645;
+}
+/*===============================one stop css==========================*/
+.OneStopTitle .TitleOneStop{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.OnstopContaine .ContaineOneStop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    
+    margin: 50px 200px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.OnestopImage .ImageOnestop{
+    width: 100%;
+    height: auto;
+}
+    /*====================Technology=================================*/
+    .TechnologyTitle .TitleTechnology{
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .Technology-items{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size:15px;
+        font-family: 'Ubuntu', sans-serif;
+        color:#56A645;
+    }
+    /*==================================*/
+    .Technology-img{
+        object-fit:contain;
+        height:200px;
+        width:200px;
+        margin-bottom:20px;
+       
+      
+    
+    }
+    .Technology-items{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size:12px;
+        font-family: 'Ubuntu', sans-serif;
+        color:#56A645;
+    }
+    .Technology{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:0;
+    margin-right:0;
+    justify-content: center;
+    align-items: center;
+    }
+ /*=======================Responsive Mobail tablet desktop===============================*/
+ @media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .MobailTitle .MobailApp_Title{
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito Sans', sans-serif;
+       
+       
+       
+    }
+    
+.MobailAppParagraph >p{
+    
+    display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 300;
+      
+      margin: 50px 20px;
+      font-family: 'Nunito Sans', sans-serif;
+}
+.ImageMobail .MobailImage{
+    width: 450px;
+    height: 350px;
+ 
+   
+ }
+ .OnstopContaine .ContaineOneStop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    
+    margin: 50px 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+    
+ }
+ @media screen and (max-device-width:640px), screen and (max-width:640px) {
+    .ImageMobail .MobailImage{
+        width: 400px;
+        height: 300px;
+     
+     }
+    }
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        /* For portrait layouts only */
+        .MobailTitle .MobailApp_Title{
+            display: flex;
+            justify-content: center;
+            font-family: 'Nunito Sans', sans-serif;
+           
+           
+           
+        }
+        
+    .MobailAppParagraph >p{
+        
+        display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: 15px;
+          font-weight: 300;
+          
+          margin: 20px 20px;
+          font-family: 'Nunito Sans', sans-serif;
+    
+    }
+    .ImageMobail .MobailImage{
+        width: 350px;
+        height: 350px;
+     
+    
+       
+     }
+     .OnstopContaine .ContaineOneStop{
+         
+        display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: 15px;
+          font-weight: 300;
+          
+          margin: 20px 20px;
+          font-family: 'Nunito Sans', sans-serif;
+    }
+      }

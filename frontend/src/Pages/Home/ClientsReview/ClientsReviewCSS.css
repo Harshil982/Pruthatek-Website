@@ -1,0 +1,388 @@
+.client-review .information h2{
+    font-size: 34px;
+    font-family: var(--font-b);
+}
+
+.client-review .information p{
+    width: 35%;
+    font-size: 14px;
+    color: var(--grey);
+    text-align: center;
+}
+
+.client-review .review{
+    position: relative;
+    margin: 100px 0 130px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.client-review .review .reviewsList{
+    min-width: 100vw;
+}
+
+/*  ----------   Slider Buttons  ----------  */
+.client-review .review .sliderBtns{
+    position: absolute;
+    top: 44%;
+    left: 2%;
+    width: 96%;
+}
+.client-review .review .sliderBtns button{
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: var(--black);
+    background: rgba(255, 255, 255, .1);
+    cursor: pointer;
+}
+
+/*  Division with an image  */
+.client-review .review-photo{
+    margin-left: 5%;
+}
+
+/*  Division to create a blurry border  */
+.client-review .review-photo .image{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 70px;
+    backdrop-filter: blur(5px);
+}
+/*  Main Image  */
+.client-review .review-photo .image img{
+    width: 200px;
+    height: 200px;
+    z-index: 11;
+}
+
+/*  Rectangle Back design   */
+.client-review .review-photo .backDesign{
+    width: 240px;
+    height: 240px;
+    border-radius: 70px;
+    background: linear-gradient(45deg, rgb(175, 187, 255), #FFF);
+    margin-left: -20%;
+    margin-top: -78%;
+}
+
+ 
+/* ---  Reviews By Customer --- */
+.client-review .review .review-info{
+    width: 37%;
+    margin-left: 8%;
+    align-self: flex-start;
+}
+
+/*  Reviews exclamation mark image  */
+.client-review .review .review-info img{
+    width: 80px;
+    height: 80px;
+}
+
+/*  Review Title    */
+.client-review .review .review-info h2{
+    color: var(--lg-blue);
+    margin: 10px 0;
+}
+/*  Review Description    */
+.client-review .review .review-info p{
+    color: var(--grey);
+    font-size: 14px;
+}
+
+/*  Stars Div    */
+.client-review .review .review-info .stars{
+    margin: 15px 0;
+}
+/*  Stars icon  */
+.client-review .review .review-info .stars i{
+    font-size: 15px;
+    color: var(--yellow);
+    margin-right: 10px;
+}
+
+/*  Name of Reviewer  */
+.client-review .review .review-info span{
+    display: inline;
+    width: fit-content;
+    font-size: 14px;
+}
+/*  Designation of Reviewer  */
+.client-review .review .review-info span{
+    margin-left: 7px;
+    color: var(--grey);
+    font-weight: normal;
+}
+
+/*  ::::: ----- Responsive Design ----- :::::   */
+/*  :::   1440p   :::  */
+@media (max-width: 1440px) {
+    .client-review{
+        margin-top: 100px;
+    }
+    .client-review .review{
+        margin: 55px 0 100px;    
+    }
+}
+
+/*  :::   1080px   :::  */
+@media (max-width: 1080px) {
+    .client-review .information h2{
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .client-review .information p{
+        width: 38%;
+    }
+
+    .client-review .review-photo .image{
+        width: 220px;
+        height: 220px;
+    }
+    .client-review .review-photo .image img{
+        width: 170px;
+        height: 170px;
+    }
+    .client-review .review-photo .backDesign{
+        width: 210px;
+        height: 210px;
+    }
+
+    .client-review .review .review-info img{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+/*  :::   1024px   :::  */
+@media (max-width: 1024px) {
+    .client-review{
+        margin-top: 80px;
+    }
+    .client-review .review{
+        margin: 45px 0 100px;    
+    }
+}
+
+
+/*  :::   998px   :::  */
+@media (max-width: 998px) {
+    .client-review .information p{
+        width: 40%;
+    }
+
+    .client-review .review .review-info img{
+        width: 60px;
+        height: 60px;
+    }
+    .client-review .review .review-info h2{
+        font-size: 22px;
+    }
+    .client-review .review .review-info p{
+        font-size: 13px;
+    }
+}
+
+/*  :::   798px   :::  */
+@media (max-width: 798px) {
+    .client-review .information h2{
+        font-size: 31px;
+    }
+    .client-review .information p{
+        width: 50%;
+        font-size: 13px;
+    }
+
+    .client-review .review-photo .image{
+        width: 180px;
+        height: 180px;
+        border-radius: 50px;
+    }
+    .client-review .review-photo .image img{
+        width: 140px;
+        height: 140px;
+    }
+    .client-review .review-photo .backDesign{
+        width: 180px;
+        height: 180px;
+        border-radius: 50px;
+        margin-left: -17%;
+        margin-top: -83%;
+    }
+
+    .client-review .review .review-info h2{
+        font-size: 21px;
+    }
+    .client-review .review .review-info p{
+        font-size: 12.5px;
+    }
+}
+
+/*  :::   520px   :::  */
+@media (max-width: 520px) {
+    .client-review{
+        margin-bottom: -20px;
+    }
+    .client-review .information h2{
+        font-size: 27px;
+    }
+    .client-review .information p{
+        width: 65%;
+        font-size: 12.5px;
+    }
+
+    .client-review .review{
+        margin-top: 30px;
+    }
+    .client-review .review .reviewsList{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .client-review .review-photo .image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50px;
+    }
+    .client-review .review-photo .image img{
+        width: 110px;
+        height: 110px;
+    }
+    .client-review .review-photo .backDesign{
+        width: 150px;
+        height: 150px;
+        border-radius: 50px;
+        margin-left: -20%;
+        margin-top: -83%;
+    }
+
+    .client-review .review .review-info{
+        margin-top: 20px;
+        width: 70vw;
+        margin-left: 16vw;
+    }
+    .client-review .review .review-info img{
+        display: none;
+    }
+    .client-review .review .review-info h2{
+        font-size: 20px;
+    }
+    .client-review .review .review-info .stars{
+        margin: 13px 0 12px;
+    }
+}
+
+/*  :::   425px   :::  */
+@media (max-width: 425px) {
+    .client-review{
+        margin-top: 70px;
+        margin-bottom: -40px;
+    }
+    .client-review .information h2{
+        font-size: 23px;
+    }
+    .client-review .information p{
+        width: 75%;
+        font-size: 12.4px;
+    }
+
+    .client-review .review-photo .image{
+        width: 145px;
+        height: 145px;
+        border-radius: 45px;
+    }
+
+    .client-review .review .sliderBtns button{
+        font-size: 20px;
+    }
+
+    .client-review .review .review-info p{
+        font-size: 12.35px;
+    }
+    .client-review .review .review-info .stars{
+        margin: 11px 0 10px;
+    }
+}
+
+/*  :::   375px   :::  */
+@media (max-width: 375px) {
+    .client-review{
+        margin-top: 50px;
+    }
+    .client-review .information h2{
+        font-size: 21px;
+        text-align: center;
+    }
+    .client-review .information p{
+        width: 80%;
+        font-size: 12.3px;
+    }
+
+    .client-review .review .sliderBtns button{
+        font-size: 18px;
+    }
+
+    .client-review .review .review-info p{
+        font-size: 12.2px;
+    }
+}
+
+/*  :::   320px   :::  */
+@media (max-width: 320px) {
+    .client-review .information h2{
+        width: 75%;
+        font-size: 20px;
+    }
+    .client-review .information p{
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .client-review .review{
+        margin-top: 18px;
+    }
+    .client-review .review-photo{
+        margin-left: 12%;
+    }
+    .client-review .review-photo .image{
+        width: 130px;
+        height: 130px;
+        border-radius: 40px;
+    }
+    .client-review .review-photo .image img{
+        width: 100px;
+        height: 100px;
+    }
+    .client-review .review-photo .backDesign{
+        width: 135px;
+        height: 135px;
+        border-radius: 40px;
+    }
+
+    .client-review .review .sliderBtns button{
+        font-size: 18px;
+    }
+
+    .client-review .review .review-info h2{
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .client-review .review .review-info p{
+        font-size: 10.4px;
+    }
+    .client-review .review .review-info .stars{
+        margin: 11px 0 10px;
+    }
+
+    .client-review .review .review-info span{
+        width: fit-content;
+        font-size: 13px;
+    }    
+}

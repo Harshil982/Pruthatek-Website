@@ -1,0 +1,116 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@font-face {
+    font-family: 'Nurito';
+    src: url(./Fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Nurito-Light';
+    src: url(./Fonts/NunitoSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Nurito-Bold';
+    src: url(./Fonts/NunitoSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Nurito-SemiBold';
+    src: url(./Fonts/NunitoSans-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+:root{
+    --font: 'Nurito', sans-serif;
+    --font-l: 'Nurito-Light';
+    --font-b: 'Nurito-Bold', sans-serif;
+    --font-sb: 'Nurito-SemiBold', sans-serif;
+
+    --normal-font: 16px;
+
+    --drk-blue: #1861AA;
+    --lg-blue: #01A4EF;
+    --yellow: #EFA706;
+    --green: #8FC320;
+    --red: #F25022;
+    --grey: #848484;
+    --black: #000;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bb{
+    border: 1px solid #000;
+}
+.br{
+    border: 1px solid #f00;
+}
+
+/*  Display Flex    */
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dfc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dfsc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.dfsa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dfsb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dfse{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  Display grid    */
+.dg2{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+}
+.dg3{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+}
+.dg4{
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+}
+
+/*  Width   */
+.w100{
+    width: 100%;
+}
+.w75{
+    width: 75%;
+}
+.w50{
+    width: 48%;
+}
+.w30{
+    width: 30%;
+}
+.w25{
+    width: 24%;
+}

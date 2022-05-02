@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ExpertisePage{
+    margin: 10px 10px 10px 10px;
+}
+.Enterprise_Title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+.ExpertiseParagraph >p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    
+    margin: 50px 200px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.LeftSideImage .imageLeptop{
+    width: 300px;
+    height: auto;
+    margin:50px 50px 50px 150px !important;
+}
+.RightsideContaine{
+   
+   
+    font-size: 15px;
+    font-weight: 300;
+    
+    
+   
+    font-family: 'Nunito Sans', sans-serif;
+}
+.OurBussiness .OurTitile{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    margin-top: 50px;
+}
+/*===== card css*/
+.underline1::after{
+   position: absolute ;
+   content: "" ;
+   width: 150px;
+   height: 2px;
+   color: #000!important;
+   background-color:#1861AA!important;
+   transform: translateY(-50%);
+   
+  
+}
+.underline2::after{
+   position: absolute ;
+   content: "" ;
+   width: 150px;
+   height: 2px;
+   color: #000!important;
+   background-color:#EFA706!important;
+   transform: translateY(-50%);
+   margin-left: 25px;
+  
+}
+.underline3::after{
+   position: absolute ;
+   content: "" ;
+   width: 150px;
+   height: 2px;
+   color: #000!important;
+   background-color:#8fc320!important;
+   transform: translateY(-50%);
+   margin-left: 15px;
+}
+.card-body .card-title{
+    text-align: center;
+    color: #1861AA;
+    font-size: 14px;
+}
+.card-body .card-text{
+    text-align: center;
+    color: #1861AA;
+    font-size: 14px;
+ }
+ .card{
+    margin: 10px auto;
+    height: 100% !important;
+    transition: 0.3s;
+    z-index: 0.99;
+ }
+ .card-img-top{
+     display: flex;
+     justify-content: center;
+     width: 100px ;
+     height: 100px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ /*==============Enterprise web App and Mobail App  css*/
+ .underline4::after{
+   position: absolute ;
+   content: "" ;
+   width: 50px;
+   height: 2px;
+   color: #000!important;
+   background-color:#8fc320!important;
+   transform: translateY(-50%);
+  
+}
+.underline5::after{
+   position: absolute ;
+   content: "" ;
+   width: 50px;
+   height: 2px;
+   color: #000!important;
+   background-color:#8fc320!important;
+   transform: translateY(-50%);
+  
+}
+ .EnterpriseWebTitle .WebTitle{
+    display: flex;
+    justify-content:left;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+ }
+ .EnterpriseWebTitle .WebText{
+    justify-content: center;
+   
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .EnterpriseWebImage .EnterPriseImage{
+    width: 290px;
+    height: 400px;
+   
+ }
+ /*===========We cover==============*/
+ .underline11::after{
+   position: absolute ;
+   content: "" ;
+   width: 110px;
+   height: 2px;
+   color: #000!important;
+   background-color:#3499eb!important;
+   transform: translateY(-50%);
+  
+}
+.underline12::after{
+   position: absolute ;
+   content: "" ;
+   width: 100px;
+   height: 2px;
+   color: #000!important;
+   background-color:#f25022!important;
+   transform: translateY(-50%);
+  
+}
+.underline13::after{
+   position: absolute ;
+   content: "" ;
+   width: 100px;
+   height: 2px;
+   color: #000!important;
+   background-color:#3499eb!important;
+   transform: translateY(-50%);
+  
+}
+.underline14::after{
+   position: absolute ;
+   content: "" ;
+   width: 150px;
+   height: 2px;
+   color: #000!important;
+   background-color:#8fc320!important;
+   transform: translateY(-50%);
+  margin-left: 200px;
+}
+.underline15::after{
+   position: absolute ;
+   content: "" ;
+   width: 150px;
+   height: 2px;
+   color: #000!important;
+   background-color:#EFA706!important;
+   transform: translateY(-50%);
+   margin-left: 200px;
+  
+}
+.underline16::after{
+   position: absolute ;
+   content: "" ;
+   width: 150px;
+   height: 2px;
+   color: #000!important;
+   background-color:#848484!important;
+   transform: translateY(-50%);
+   margin-left: 200px;
+  
+}
+ .WecoverTitle .WecoverHeading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+ }
+ .enti-ititle{
+     margin-left: 20px;
+     color: #1861AA;
+ }
+ .SoftwareDesignTitle{
+    margin-left: 20px;
+    color: #f25022;
+ }
+ .SoftwareDeliveryTitle{
+    margin-left: 20px;
+    color: #3499eb;
+ }
+ .ProjectMainList .ProjectList{
+     color: #1861AA;
+ }
+ .SoftwareMainList .SoftwareList{
+    color: #1861AA;
+ }
+ .SoftwareDeliveryMainList .SoftwareDelivery{
+    color: #1861AA;
+ }
+ .WeCoverImage .GroupImage{
+     width: 100%;
+     height: 500px;
+ }
+ .RequirementsTitle{
+     display: flex;
+     justify-content: flex-end;
+    margin-left: 20px;
+    color: #8fc320;
+ }
+ .MaintenanceTitle{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    color: #EFA706;
+ }
+ .SoftwareDevlopmentTitle{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    color: #848484;
+ }
+ .RequirementsMainList .RequirementsList{
+    display: flex;
+    justify-content: flex-end;
+    color: #1861AA;
+ }
+ .MaintenceMainList .MaintenceList{
+    display: flex;
+    justify-content: flex-end;
+    color: #1861AA;
+   
+ }
+ .SoftwareDevlopmentMainList .SoftwareDevelopmentList{
+    display: flex;
+    justify-content: flex-end;
+    color: #1861AA;
+ }
+ /*======================siderbar====================*/
+ .BackgroundImage{
+    background: url("./assets/images/Group\ 302.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+ }
+ .BackgroundImage1{
+    background: url("./assets/images/Group\ 301.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+ }
+ .BackgroundImage2{
+    background: url("./assets/images/Group\ 300.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+ }
+ .BackgroundImage3{
+    background: url("./assets/images/Group\ 298.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+ }
+ .BackgroundImage4{
+    background: url("./assets/images/Group\ 299.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+ }
+ .HeadingTitle .TrendsettingTitle{
+     display: flex;
+     justify-content: center;
+     color: #fff;
+     font-size: 20px;
+ }
+ .TrendsettingContaine{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    margin: 10px 100px 150px 150px;
+ }
+ .TrendsettingBox{
+    -webkit-box-shadow: 0px  0px 15px -10px rgba(0 ,0 ,0 ,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0,0, 0.75);
+    padding: 20px;
+    margin: 100px 150px 200px 150px;
+    background-color: #fff;
+   
+ }
+ .BlockchainTitle .BlockTitle{
+     font-size: 20px;
+     color: #3499eb;
+     
+     
+    
+    
+ }
+ .BlockchainContaine{
+   color: #1861AA;
+   font-size: 15px;
+ }
+ .BlockchainImage .ImageBlockchain{
+     width: 300px;
+     height: 300px;
+ }
+ .underline::after{
+    position: absolute ;
+    content: "" ;
+    width: 100px;
+    height: 2px;
+    color: #000!important;
+    background-color:#1861AA!important;
+    transform: translateY(-50%);
+   
+ }
+ 
+ /*======================== card css ===========================*/
+ 
+ .WhyGoTitle .WhyGoEnterprseTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    
+ }
+ .WhyGoParagarph .WhyGoContaine{
+    font-size: 15px;
+    font-weight: 300;
+    color: #223444;
+    margin-right: 200px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+   
+/*===========*/
+.featured{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.featuredItem{
+    flex: 1;
+    margin: 0px 10px;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px  0px 15px -10px rgba(0 ,0 ,0 ,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0,0, 0.75);
+}
+.TitleCard{
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+  
+}
+.featuredItem .TechnologySub >p{
+   font-size: 10px;
+   font-weight: 200;
+   font-family: 'Nunito Sans', sans-serif;
+ 
+   
+}
+.featuredImage{
+    width: 300px;
+    height: 200px;
+ 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/*Responsive card */
+@media only screen and (max-width: 600px) {
+    .featured{
+       flex-direction: column;
+       width: 300px;
+       margin: 30px ;
+       padding: 20px;
+     margin-left: 100px !important;
+       
+    }
+    .featuredImage{
+      width: 220px;
+      height: 100px;
+   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .featuredItem{
+     margin: 20px;
+  }
+  .WhyGoTitle .WhyGoEnterprseTitle{
+     font-size: 15px;
+  }
+  .WhyGoParagarph .WhyGoContaine{
+   font-size: 12px;
+   font-weight: 300;
+   color: #223444;
+   margin-right: 10px;
+   margin-left: 100px;
+  
+  }
+    
+  }
+/* siderbar responsive*/
+@media only screen and (max-width: 600px) {
+   .TrendsettingBox{
+      -webkit-box-shadow: 0px  0px 15px -10px rgba(0 ,0 ,0 ,0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0,0, 0.75);
+      padding: 20px;
+      margin: 50px 50px 100px 50px;
+      background-color: #fff;
+     
+   }
+   .BlockchainImage .ImageBlockchain{
+      width: 300px;
+   }
+}
+   /* we cover the full cycle responsive*/
+   @media only screen and (max-width: 600px) {
+      .WecoverTitle .WecoverHeading{
+         display: flex;
+         justify-content: center;
+         font-family: 'Nunito Sans', sans-serif;
+         text-transform: uppercase;
+         font-size: 15px;
+       
+      }
+      .WeCoverImage .GroupImage{
+         width: 90%;
+         height: 500px;
+      }
+   }
+   /*Enter price software development*/
+   @media only screen and (max-width: 600px) {
+      .Enterprise_Title{
+         display: flex;
+         justify-content: center;
+         font-family: 'Nunito Sans', sans-serif;
+         text-transform: uppercase;
+         font-size: 15px;
+     }
+     .ExpertiseParagraph >p{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 300;
+      
+      margin: 50px 20px;
+      font-family: 'Nunito Sans', sans-serif;
+  
+  }
+  .RightsideContaine{
+   
+   
+   font-size: 15px;
+   font-weight: 300;
+ 
+   
+  
+   font-family: 'Nunito Sans', sans-serif;
+}
+   }
+    /* Mobail view*/
+    @media only screen and (max-width: 480px){
+      .BlockchainImage .ImageBlockchain{
+         width: 200px;
+    }
+   }
+   /* underline  responsive*/
+   @media only screen and (max-width: 600px){
+      .underline1::after{
+         position: absolute ;
+         content: "" ;
+         width: 100px;
+         height: 2px;
+         color: #000!important;
+         background-color:#1861AA!important;
+         transform: translateY(-50%);
+         margin-right: 50px;
+        
+      }
+      .underline2::after{
+         position: absolute ;
+         content: "" ;
+         width: 100px;
+         height: 2px;
+         color: #000!important;
+         background-color:#EFA706!important;
+         transform: translateY(-50%);
+         margin-left: 60px;
+        
+      }
+      .underline3::after{
+         position: absolute ;
+         content: "" ;
+         width: 100px;
+         height: 2px;
+         color: #000!important;
+         background-color:#8fc320!important;
+         transform: translateY(-50%);
+         margin-left: 55px;
+      }
+      
+   }
+  
+   
+ /*tabblet format */
+ @media only screen and (max-width: 768px) {
+   .TrendsettingBox{
+      -webkit-box-shadow: 0px  0px 15px -10px rgba(0 ,0 ,0 ,0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0,0, 0.75);
+      padding: 20px;
+      margin: 50px 50px 100px 50px;
+      background-color: #fff;
+     
+   }
+   .BlockchainImage .ImageBlockchain{
+      width: 200px;
+   }
+   .EnterpriseWebImage .EnterPriseImage{
+      width: 300px;
+    height: 400px;
+   
+   }
+}
+/*============*/
+.LeftSideImage .imageLeptop{
+   width: 200px;
+   height: auto;
+   margin-left: 100px;
+}
+@media only screen and (max-width: 768px) {
+   .featured{
+      flex-direction: column;
+      width: 300px;
+      margin: 50px;
+      padding: 20px;
+     margin-left: 100px !important;
+      
+   }
+   .featuredImage{
+     width: 220px;
+     height: 100px;
+  
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+ }
+ .featuredItem{
+    margin: 20px;
+ }
+ .WhyGoTitle .WhyGoEnterprseTitle{
+    font-size: 15px;
+ }
+ .WhyGoParagarph .WhyGoContaine{
+  font-size: 12px;
+  font-weight: 300;
+  color: #223444;
+  margin-right: 10px;
+  margin-left: 100px;
+ 
+ }
+   
+ }
+ /* underline css responsive*/
+ @media only screen and (max-width: 768px) {
+  
+   .underline1::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#1861AA!important;
+      transform: translateY(-50%);
+      margin-left: 15px;
+     
+   }
+   .underline2::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#EFA706!important;
+      transform: translateY(-50%);
+      margin-left: 15px;
+     
+   }
+   .underline3::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#8fc320!important;
+      transform: translateY(-50%);
+      margin-left: 15px;
+   }
+   .underline11::after{
+      position: absolute ;
+      content: "" ;
+      width: 110px;
+      height: 2px;
+      color: #000!important;
+      background-color:#3499eb!important;
+      transform: translateY(-50%);
+     
+   }
+   .underline12::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#f25022!important;
+      transform: translateY(-50%);
+     
+   }
+   .underline13::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#3499eb!important;
+      transform: translateY(-50%);
+     
+   }
+   .underline14::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#8fc320!important;
+      transform: translateY(-50%);
+     margin-left: 50px;
+   }
+   .underline15::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#EFA706!important;
+      transform: translateY(-50%);
+      margin-left: 30px;
+     
+   }
+   .underline16::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#848484!important;
+      transform: translateY(-50%);
+      margin-left: 40px;
+     
+   }
+ }
+ /*  @media only screen and (max-width: 992px) */
+ @media only screen and (max-width: 1025px) {
+   .TrendsettingBox{
+      -webkit-box-shadow: 0px  0px 15px -10px rgba(0 ,0 ,0 ,0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0,0, 0.75);
+      padding: 20px;
+      margin: 50px 50px 100px 50px;
+      background-color: #fff;
+     
+   }
+   .BlockchainImage .ImageBlockchain{
+      width: 200px;
+   }
+}
+@media only screen and (max-width: 992px) {
+  
+   .featured{
+     flex-direction: column;
+      width: 300px;
+      margin: 50px ;
+      padding: 20px;
+      margin-left: 100px !important;
+   }
+   
+   
+   
+   .featuredImage{
+     width: 200px;
+     height: 100px;
+  
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+ }
+ .featuredItem{
+    margin: 20px;
+ }
+ .WhyGoTitle .WhyGoEnterprseTitle{
+    font-size: 15px;
+ }
+ .WhyGoParagarph .WhyGoContaine{
+  font-size: 12px;
+  font-weight: 300;
+  color: #223444;
+  margin-right: 10px;
+  margin-left: 100px;
+ 
+ }
+   
+ }
+ /* underline css responsive*/
+ @media only screen and (max-width:992px) {
+   .underline11::after{
+      position: absolute ;
+      content: "" ;
+      width: 110px;
+      height: 2px;
+      color: #000!important;
+      background-color:#3499eb!important;
+      transform: translateY(-50%);
+     
+   }
+   .underline12::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#f25022!important;
+      transform: translateY(-50%);
+     
+   }
+   .underline13::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#3499eb!important;
+      transform: translateY(-50%);
+     
+   }
+   .underline14::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#8fc320!important;
+      transform: translateY(-50%);
+     margin-left: 50px;
+   }
+   .underline15::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#EFA706!important;
+      transform: translateY(-50%);
+      margin-left: 30px;
+     
+   }
+   .underline16::after{
+      position: absolute ;
+      content: "" ;
+      width: 100px;
+      height: 2px;
+      color: #000!important;
+      background-color:#848484!important;
+      transform: translateY(-50%);
+      margin-left: 40px;
+     
+   }
+ }
+ /* =======1281 leptop===========*/
+@media only screen and (max-width: 1281px) {
+  
+   .featured{
+     
+      width: 250px;
+      margin: 50px ;
+      padding: 20px;
+      margin-left:100px !important;
+      
+   
+   }
+   .featuredItem{
+      margin: 5px;
+   }
+  
+   .featuredImage{
+     width: 200px;
+     height: 100px;
+  
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+ }
+}
