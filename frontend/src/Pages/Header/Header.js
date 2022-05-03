@@ -28,10 +28,10 @@ const Header = () => {
                 Expertise
               </Nav.Link>
               <Nav.Link href="/methodology" className="ms-3">
-              Methodology
+                Methodology
               </Nav.Link>
               <Nav.Link href="/mobile-app" className="ms-3">
-              Mobile App
+                Mobile App
               </Nav.Link>
               <Nav.Link href="/" className="ms-3">
                 Portfolio
