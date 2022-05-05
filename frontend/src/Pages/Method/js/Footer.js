@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaGreaterThan,
 } from "react-icons/fa";
+import "../css/Footer.css"
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
         <div className="container mt-5">
           <footer className="pt-5">
             <div className="row justify-content-evenly">
-              <div className="col-1">
+              <div className="col-12 col-sm-6 col-md-4 col-lg-1 col-xl-1 my-3 text-center text-sm-start text-md-start text-lg-start text-xl-start">
                 <h5>About</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
@@ -41,7 +42,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-3">
+              <div className="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 my-3 text-center text-sm-start text-md-start text-lg-start text-xl-start">
                 <h5>Expertise</h5>
                 <ul className="nav flex-column fs-6">
                   <li className="nav-item mb-2">
@@ -87,7 +88,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="col-2">
+              <div className="col-12 col-sm-4 col-md-4 col-lg-2 col-xl-2 my-3 text-center text-sm-start text-md-start text-lg-start text-xl-start">
                 <h5>Head Office</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
@@ -118,7 +119,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="col-3">
+              <div className="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 my-3 text-center text-sm-start text-md-start text-lg-start text-xl-start">
                 <h5>Our Locations</h5>
                 <img
                   src="/images/world map.png"
@@ -129,20 +130,20 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-4">
                     Canada
-                    <span className="text-muted"> Ontario,Canada</span>
+                    <span className="text-muted font-size-smaller"> Ontario,Canada</span>
                   </div>
                   <div className="col-4">
                     Singapore
-                    <span className="text-muted"> Ontario,Canada</span>
+                    <span className="text-muted font-size-smaller"> Ontario,Canada</span>
                   </div>
                   <div className="col-4">
                     Australia
-                    <span className="text-muted"> Ontario,Canada</span>
+                    <span className="text-muted font-size-smaller"> Ontario,Canada</span>
                   </div>
                 </div>
               </div>
 
-              <div className="col-3">
+              <div className="col-112 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-3 text-start text-sm-start text-md-start text-lg-start text-xl-start">
                 <h5>Follow Us</h5>
                 <ul className="list-unstyled d-flex">
                   <li className="fs-3">
