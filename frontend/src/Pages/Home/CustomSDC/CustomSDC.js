@@ -5,32 +5,32 @@ import '../CustomSDC/CustomSDCCSS.css';
 function CustomSDC(){
     const cardInfo = [
         {
-            imgSrc: '1.png',
+            imgSrc: 'Pictures/1.png',
             title: "Enterprise Software Development",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
         {
-            imgSrc: '2.png',
+            imgSrc: 'Pictures/2.png',
             title: "Web Application Development",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
         {
-            imgSrc: '3.png',
+            imgSrc: 'Pictures/3.png',
             title: "Mobile Application Development",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
         {
-            imgSrc: '4.png',
+            imgSrc: 'Pictures/4.png',
             title: "E-commerce / Retail",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
         {
-            imgSrc: '5.png',
+            imgSrc: 'Pictures/5.png',
             title: "Enterprise Software Development",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
         {
-            imgSrc: '6.png',
+            imgSrc: 'Pictures/6.png',
             title: "Enterprise Software Development",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
