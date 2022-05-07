@@ -88,9 +88,9 @@ const Header = () => {
           <ul>
             <li><Link to="/" className="text-dec-none">Company</Link></li>
             <li><Link to="/" className="text-dec-none">Expertise</Link>
-              <ul>
-                <div className="container-fluid">
-                  <div className="row">
+              <ul className="px-0">
+                <div className="container">
+                  <div className="row bg-light">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 my-2 bg-light">
                       <li>
                         <Link to="/methodology" className="text-dec-none development-border">Development</Link>
@@ -149,15 +149,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="/">Action</a></li>
-    <li><a class="dropdown-item" href="/">Another action</a></li>
-    <li><a class="dropdown-item" href="/">Something else here</a></li>
-  </ul>
-</div>

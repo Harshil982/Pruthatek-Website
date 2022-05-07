@@ -14,6 +14,7 @@ import BusinessContinuty from './Pages/Company/Components/BusinessContinuty';
 import QualityManagement from './Pages/Company/Components/QualityManagement';
 import Engagement from './Pages/Company/Components/Engagement';
 import Contact from './Pages/ContactUs/Contact';
+import Blog from './Pages/Blog/Components/Blog';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/quality-management' element={<QualityManagement />} />
           <Route path='/engagement-models' element={<Engagement />} />
           <Route path='/contact-us' element={<Contact />} />
+          <Route path='/blogs' element={<Blog />} />
         </Routes>
         <Footer />
       </Router>

@@ -8,7 +8,8 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 2.4vw;
-    margin-top: 3vw;
+    margin-top: 10vw;
+    font-weight: 900;
 }
 .qulty-desc
 {
@@ -187,6 +188,10 @@
 }
 @media only screen and (max-width: 768px)
 {
+    .qulty-mngmnt-title
+    {
+        margin-top: 15vw;
+    }
     .QMA-tasks
     {
         width: 36vw;
@@ -242,6 +247,7 @@
     .qulty-mngmnt-title
     {
         font-size: 3.5vw;
+        margin-top: 24vw;
     }
     .Comprehensive-title
     {
@@ -276,7 +282,7 @@
     }
     .QMA-tasks
     {
-        margin-top: 15vw;
+        margin-top: 19vw;
         width: 74vw;
         margin-left: calc(50% - 37vw);
     }
