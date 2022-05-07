@@ -8,7 +8,7 @@ function SomeInfo(){
             <div className='divWithImage'>
                 {/*  Division to create a blurry border  */}
                 <div className='image df'>
-                    <img src={img} alt="ImageHere" />
+                    <img src={img} alt="Image" />
                 </div>
                 <div className='backDesign' />
             </div>

@@ -1,5 +1,6 @@
 .choose-us .information h3{
     font-size: 22px;
+    font-weight: bold;
 }
 
 .category-cards{
@@ -8,7 +9,7 @@
 }
 
 /*  Cards   */
-.category-cards .card{
+.category-cards .CUcard{
     width: 22.5%;
     align-items: flex-start;
     box-shadow: 0 6px 6px rgba(0, 0, 0, .1);
@@ -18,21 +19,22 @@
 
 
 /*  Card Image  */
-.category-cards .card img{
+.category-cards .CUcard img{
     width: 100%;
 }
 /*  Card Title  */
-.category-cards .card h3{
+.category-cards .CUcard h3{
+    font-size: 24px;
     margin: 15px 18px 8px;
 }
 /*  Card Detail */
-.category-cards .card p{
+.category-cards .CUcard p{
     font-size: 11.5px;
     margin: 10px 18px;
     color: var(--grey);
 }
 /*  learn more  */    
-.category-cards .card a{
+.category-cards .CUcard a{
     color: var(--drk-blue);
     font-size: 14px;
     margin: 15px 18px 25px;
@@ -41,7 +43,7 @@
 
 
 /*  Small bump on the line  */
-.category-cards .card div{
+.category-cards .CUcard div{
     width: 11%;
     height: 3px;
     margin-left: 18px;
@@ -50,37 +52,37 @@
 }
 
 /*  Seperate styling for bump  */
-.category-cards .card:nth-child(1) div{
+.category-cards .CUcard:nth-child(1) div{
     background-color: var(--drk-blue);
 }
-.category-cards .card:nth-child(2) div{
+.category-cards .CUcard:nth-child(2) div{
     background-color: var(--green);
 }
-.category-cards .card:nth-child(3) div{
+.category-cards .CUcard:nth-child(3) div{
     background-color: var(--yellow);
 }
-.category-cards .card:nth-child(4) div{
+.category-cards .CUcard:nth-child(4) div{
     background-color: var(--red);
 }
 
 
 /*  The line after title    */
-.category-cards .card hr{
+.category-cards .CUcard hr{
     border: none;
     margin-left: 18px;
 }
 
 /*  Seperate styling for line    */
-.category-cards .card:nth-child(1) hr{
+.category-cards .CUcard:nth-child(1) hr{
     border-bottom: 1px solid var(--drk-blue);
 }
-.category-cards .card:nth-child(2) hr{
+.category-cards .CUcard:nth-child(2) hr{
     border-bottom: 1px solid var(--green);
 }
-.category-cards .card:nth-child(3) hr{
+.category-cards .CUcard:nth-child(3) hr{
     border-bottom: 1px solid var(--yellow);
 }
-.category-cards .card:nth-child(4) hr{
+.category-cards .CUcard:nth-child(4) hr{
     border-bottom: 1px solid var(--red);
 }
 
@@ -90,7 +92,7 @@
     .choose-us .category-cards{
         margin: 60px 3% 80px;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 10.5px;
         margin: 10px 18px;
     }
@@ -101,7 +103,7 @@
     .choose-us .category-cards{
         margin: 60px 3% 80px;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 9.5px;
         margin: 10px 18px;
     }
@@ -122,10 +124,10 @@
         column-gap: 30px;
         row-gap: 40px;
     }
-    .choose-us .category-cards .card{
+    .choose-us .category-cards .CUcard{
         width: 100%;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 11px;
     }
 }
@@ -146,13 +148,13 @@
         column-gap: 20px;
         row-gap: 30px;
     }
-    .choose-us .category-cards .card h3{
+    .choose-us .category-cards .CUcard h3{
         font-size: 16px;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 10px;
     }
-    .choose-us .category-cards .card a{
+    .choose-us .category-cards .CUcard a{
         font-size: 12px;
         margin: 10px 18px 20px;
     }
@@ -177,13 +179,13 @@
         margin: 25px 20%;
         row-gap: 25px;
     }
-    .choose-us .category-cards .card h3{
+    .choose-us .category-cards .CUcard h3{
         font-size: 17px;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 11px;
     }
-    .choose-us .category-cards .card a{
+    .choose-us .category-cards .CUcard a{
         font-size: 13px;
         margin: 10px 19px 20px;
     }
@@ -195,13 +197,13 @@
         width: 66%;
         margin: 25px 17.5%;
     }
-    .choose-us .category-cards .card h3{
+    .choose-us .category-cards .CUcard h3{
         font-size: 16px;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 10.4px;
     }
-    .choose-us .category-cards .card a{
+    .choose-us .category-cards .CUcard a{
         font-size: 12px;
         margin: 5px 19px 20px;
     }
@@ -214,13 +216,13 @@
         margin: 25px 13%;
         row-gap: 30px;
     }
-    .choose-us .category-cards .card h3{
+    .choose-us .category-cards .CUcard h3{
         font-size: 16px;
     }
-    .choose-us .category-cards .card p{
+    .choose-us .category-cards .CUcard p{
         font-size: 10.4px;
     }
-    .choose-us .category-cards .card a{
+    .choose-us .category-cards .CUcard a{
         font-size: 12px;
         margin: 5px 19px 20px;
     }

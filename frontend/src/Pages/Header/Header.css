@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  
+  .header-class {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  .navbar-pt ul {
+    list-style: none;
+  }
+  
+  .navbar-pt ul li {
+    position: relative;
+    float: left;
+  }
+  
+  .navbar-pt ul li a {
+    font-size: 1vw;
+    padding: 20px;
+    color: #333;
+    display: block;
+  }
+  
+  .navbar-pt ul li a:hover {
+    background-color: rgb(4, 39, 121);
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  .navbar-pt ul li ul {
+    position: absolute;
+    left: 0;
+    width: 35rem;
+    font-size: 1vw;
+    background-color: #fff;
+    display: none;
+  }
+  
+  .navbar-pt ul li ul li {
+    width: 100%;
+  }
+  
+  .navbar-pt ul li:focus-within > ul,
+  .navbar-pt ul li:hover > ul {
+    display: initial;
+  }
+  
+  #menu-bar {
+    display: none;
+  }
+  
+  .header-class label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .text-dec-none {
+    text-decoration: none;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .development-border {
+    border-bottom: 2px solid blue;
+    color: blue !important;
+  }
+  
+  .development-border:hover {
+    background-color: #fff !important;
+    cursor: text;
+    color: #333;
+    text-decoration: none !important;
+  }
+  
+  
+  .testing-border {
+      border-bottom: 2px solid orange;
+      color: orange !important;
+    }
+    
+    .testing-border:hover {
+      background-color: #fff !important;
+      cursor: text;
+      color: #333;
+      text-decoration: none !important;
+    }
+  
+    .Data-border {
+      border-bottom: 2px solid greenyellow;
+      color: greenyellow !important;
+    }
+    
+    .Data-border:hover {
+      background-color: #fff !important;
+      cursor: text;
+      color: #333;
+      text-decoration: none !important;
+    }
+  
+  
+  /* Media Queries */
+  
+  @media (max-width: 991px) {
+    .header-class {
+      padding: 20px;
+    }
+  
+    .header-class label {
+      display: initial;
+    }
+  
+    .header-class .navbar-pt {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      display: none;
+    }
+  
+    .header-class .navbar-pt ul li {
+      width: 100%;
+    }
+  
+    .header-class .navbar-pt ul li ul {
+      position: relative;
+      width: 100%;
+    }
+  
+    .header-class .navbar-pt ul li ul li {
+      background-color: #eee;
+    }
+  
+    #menu-bar:checked ~ .navbar-pt {
+      display: initial;
+    }
+  
+    .navbar-pt ul li a {
+      font-size: 20px;
+    }
+  }
+  

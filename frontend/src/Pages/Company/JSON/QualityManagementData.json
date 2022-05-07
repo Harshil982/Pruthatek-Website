@@ -1,0 +1,17 @@
+[
+    {
+        "imgPath" :"Pictures/QM_2.png",
+        "title" : "Quality Planning",
+        "desc" :"Terms are isolated  across different locations.Some teams may not be using Agile."
+    },
+    {
+        "imgPath" :"Pictures/QM_3.png",
+        "title" : "Quality Assurance",
+        "desc" :"Cross-functional Scrum teams are isolated across locations and integrated by a Scrum-of-Scrums that meets regularly across locations."
+    },
+    {
+        "imgPath" :"Pictures/QM_4.png",
+        "title" : "Quality Control",
+        "desc" :"Scrum team members are distributed across locations."
+    }
+]

@@ -1,5 +1,5 @@
 import '../vars.css';
-// import img from '../ProjectInfo/img.jpeg';
+import img from '../ProjectInfo/img.jpeg';
 import '../ProjectInfo/projectInfoCSS.css';
 
 function ProjectInfo(){
@@ -22,7 +22,7 @@ function ProjectInfo(){
         },
     ];
 
-    const projInfo = info.map((item,index) => {
+    const projInfo = info.map((item, index) => {
         return(
             <div className='df' key={index}>
                 <h1>{item.count}</h1>
