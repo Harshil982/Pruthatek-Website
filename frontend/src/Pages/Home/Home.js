@@ -1,4 +1,4 @@
-import React from "react";
+import React, {  } from "react";
 import PlanningBusiness from "./PlanningBusiness/planningBusiness";
 import CustomSDC from "./CustomSDC/CustomSDC";
 import SomeInfo from "./SomeInfo1/someInfo";
@@ -11,6 +11,9 @@ import FAQs from "./FAQs/faq";
 import ProjectInfo from "./ProjectInfo/projectInfo";
 
 function Home() {
+
+  // window.location.reload();
+
   return (
     <>
       <PlanningBusiness />
