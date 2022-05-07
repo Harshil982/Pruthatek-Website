@@ -208,6 +208,7 @@ const MobileApp = () => {
       </div>
     </div>
   );
+  
 }
 
 export default MobileApp;

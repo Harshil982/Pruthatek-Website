@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Expertise from './Pages/Expertise/Expertise';
-import Home from './Pages/Home/Home';
+import HomePage from './Pages/Home/HomePage';
 import Method from './Pages/Method/Method';
 import Header from './Pages/Header/Header'
 import Footer from './Pages/Method/js/Footer'
@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<HomePage />} />
           <Route path='/expertise' element={<Expertise />} />
           <Route path='/methodology' element={<Method />} />
           <Route path='/mobile-app' element={<MobileApp />} />

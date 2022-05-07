@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .MobailApp{
     margin: 10px 10px 10px 10px;
 }
@@ -15,6 +16,8 @@
     font-family: 'Nunito Sans', sans-serif;
   
 }
+
+
 .MobailAppParagraph >p{
     display: flex;
     justify-content: center;
@@ -24,6 +27,7 @@
     
     margin: 50px 200px;
     font-family: 'Nunito Sans', sans-serif;
+
 }
 .UserExperienceTitle .UserTitle{
    
@@ -78,6 +82,7 @@
   
     font-family: 'Nunito Sans', sans-serif;
  }
+
  .des-items{
     justify-content: center;
     align-items: center;
@@ -102,6 +107,8 @@
     font-family: 'Ubuntu', sans-serif;
     color:#56A645;
 }
+
+
 /*===============================one stop css==========================*/
 .OneStopTitle .TitleOneStop{
     display: flex;
@@ -118,9 +125,11 @@
     margin: 50px 200px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .OnestopImage .ImageOnestop{
     width: 100%;
     height: auto;
+
 }
     /*====================Technology=================================*/
     .TechnologyTitle .TitleTechnology{
@@ -163,6 +172,7 @@
     align-items: center;
     }
  /*=======================Responsive Mobail tablet desktop===============================*/
+
  @media only screen and (max-width: 600px) and (min-width: 400px)  {
     .MobailTitle .MobailApp_Title{
         display: flex;
@@ -183,13 +193,16 @@
       
       margin: 50px 20px;
       font-family: 'Nunito Sans', sans-serif;
+
 }
 .ImageMobail .MobailImage{
     width: 450px;
     height: 350px;
  
+
    
  }
+
  .OnstopContaine .ContaineOneStop{
     display: flex;
     justify-content: center;
@@ -200,6 +213,7 @@
     margin: 50px 20px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
     
  }
  @media screen and (max-device-width:640px), screen and (max-width:640px) {
@@ -211,6 +225,7 @@
     }
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
         /* For portrait layouts only */
+
         .MobailTitle .MobailApp_Title{
             display: flex;
             justify-content: center;
@@ -239,6 +254,7 @@
     
        
      }
+
      .OnstopContaine .ContaineOneStop{
          
         display: flex;

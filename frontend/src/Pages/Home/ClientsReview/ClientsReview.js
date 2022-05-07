@@ -26,18 +26,18 @@ function ClientsReview(){
     ];
 
     /*  Reviews Div  */
-    const reviews = reviewsList.map((rev,index) => {
+    const reviews = reviewsList.map((rev, index) => {
         return(
             <div className='reviewsList df' key={index}>
                 <div className='review-photo'>
                     {/*  Division to create a blurry border  */}
                     <div className='image df'>
-                        <img src={rev.profileImg} alt="ImageHere" />
+                        <img src={rev.profileImg} alt="Image" />
                     </div>
                     <div className='backDesign' />
                 </div>
                 <div className='review-info'>
-                    <img src={img}alt="ImageisHere"/>
+                    <img />
                     <h2>{rev.title}</h2>
                     <p>{rev.description}</p>
                     <div className='stars'>
@@ -47,7 +47,7 @@ function ClientsReview(){
                         {rev.starCode}
                         {rev.starCode}
                     </div>
-                    <span className='df fs-4'>{rev.name}</span>,<span className='fs-5'>{rev.designation}</span>
+                    <h4 className='df'>{rev.name}, <span>{rev.designation}</span></h4>
                 </div>
             </div>   
         )

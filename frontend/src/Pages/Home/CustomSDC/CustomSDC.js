@@ -36,13 +36,13 @@ function CustomSDC(){
         },
     ];
 
-    const cards = cardInfo.map((item) => {
+    const cards = cardInfo.map((item, index) => {
         return(
-            <div className="SDCcard dfc">
+            <div className="SDCcard dfc" key={index}>
                 <img src={item.imgSrc} alt="Images" />
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
-                <a>Learn More &nbsp;&nbsp; <i class="bi bi-arrow-right"></i></a>
+                <a>Learn More &nbsp;&nbsp; <i className="bi bi-arrow-right"></i></a>
             </div>
         )
     })

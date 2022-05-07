@@ -190,7 +190,7 @@ const Footer = () => {
               <p>
                 <span className="text-secondary">All rights reserved</span>
                 &nbsp;&nbsp;
-                <span>&copy; Your Company 2021</span>
+                <span>&copy; PruthaTek 2021</span>
               </p>
             </div>
           </footer>

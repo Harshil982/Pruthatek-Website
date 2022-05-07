@@ -32,16 +32,16 @@ function BlogPost(){
         }
     ];
 
-    const blogCard = blogCardInfo.map((card,index) => {
+    const blogCard = blogCardInfo.map((card, index) => {
         return(
-            <div className='card-blog' key={index}>
+            <div className='card' key={index}>
                 <div className='card-header'>
                     <p>{card.type}</p>
                 </div>
                 <hr />
                 <h4>{card.title}</h4>
                 <div className='profile dfsb'>
-                    <img src={card.img} alt="ImageHere" />
+                    <img src={card.img} alt="Image" />
                     <div className='profile-info'>
                         <p>{card.name}</p>
                         <p className='dt'>{card.dt}</p>
@@ -65,7 +65,7 @@ function BlogPost(){
                 {blogCard}
             </div>
             <div className='df'>
-                <button>Learn More</button>
+                <button className='learnMore'>Learn More</button>
             </div>
         </section>
     )
