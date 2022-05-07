@@ -1,0 +1,122 @@
+.pruthatek-blogs
+{
+    margin-top: 8vw;
+    /* text-align: center; */
+}
+.pruthatek-blogs .QMA-tasks
+{
+    margin-top: 7vw;
+    margin-left: -4vw;
+}
+.pruthatek-blogs .QMA-tasks h2
+{
+    margin-left: 1vw;
+    margin-bottom: 1.6vw;
+    color: gray;
+    font-weight: bolder;
+}
+.pruthatek-blogs .company_people-img,
+.pruthatek-blogs .shadow
+{
+    height: 20vw;
+    width: 20vw;
+}
+.pruthatek-blogs .latest-blogs
+{
+    margin-top: 12vw;
+}
+.pruthatek-blogs .latest-blogs h2
+{
+    text-align: center;
+    font-weight: 900;
+}
+.latest-blogs-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 3vw 5vw;
+}
+.hover-cards
+{
+    width: 23vw;
+    border-radius: 12px;
+    position: relative;
+    margin-left: 5vw;
+}
+.hover-cards img
+{
+    border-radius: 18px;
+    width: 100%;
+}
+.hover-card-data
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 1vw;
+    color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(255, 166, 0, 0.24));
+    padding : 15vw 2vw 0vw 2vw;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 500ms;
+}
+.hover-cards:nth-child(2) .hover-card-data
+{
+    padding : 15vw 2vw 0vw 2vw;
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(255, 8, 0, 0.24));
+}
+.hover-cards:nth-child(3) .hover-card-data
+{
+    padding : 15vw 2vw 0vw 2vw;
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(0, 81, 255, 0.24));
+}
+.hover-cards-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 5vw;
+}
+.hover-cards:hover .hover-card-data
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+@media only screen and (max-width: 800px)
+{
+    .latest-blogs
+    {
+        margin-bottom: 14vw;
+    }
+    .latest-blogs-container
+    {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .latest-blogs-container
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .hover-cards-container
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hover-cards
+    {
+        width: 60vw;
+        margin-top: 5vw;
+    }
+    .hover-card-data
+    {
+        font-size: 2.5vw;
+    }
+}
