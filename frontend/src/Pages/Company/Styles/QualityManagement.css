@@ -40,8 +40,8 @@
 }
 .company_people-img-cont .shadow
 {
-    height: 17vw;
-    width: 17vw;
+    height: 20vw;
+    width: 20vw;
     padding: 2vw;
     border-radius: 4vw;
     position: absolute;
@@ -52,8 +52,8 @@
 }
 .company_people-img
 {
-    height: 17vw;
-    width: 17vw;
+    height: 20vw;
+    width: 20vw;
     padding: 2vw;
     background-color: rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );

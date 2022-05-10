@@ -127,7 +127,7 @@ const Header = () => {
                         <Link to="/" className="text-dec-none">Machine Learning</Link>
                       </li>
                       <li>
-                        <Link to="/" className="text-dec-none">Artificial Intelligence</Link>
+                        <Link to="/Artificial-Intelligence" className="text-dec-none">Artificial Intelligence</Link>
                       </li>
                     </div>
                   </div>
@@ -136,11 +136,11 @@ const Header = () => {
               </ul>
             </li>
             <li><Link to="/" className="text-dec-none">Services</Link></li>
-            <li><Link to="/" className="text-dec-none">Clients</Link></li>
+            <li><Link to="/clients" className="text-dec-none">Clients</Link></li>
             <li><Link to="/" className="text-dec-none">Portfolio</Link></li>
             <li><Link to="/" className="text-dec-none">Career</Link></li>
-            <li><Link to="/" className="text-dec-none">Blog</Link></li>
-            <li><Link to="/" className="text-dec-none">Contact Us</Link></li>
+            <li><Link to="/blogs" className="text-dec-none">Blog</Link></li>
+            <li><Link to="/contact-us" className="text-dec-none">Contact Us</Link></li>
           </ul>
         </nav>
       </div>

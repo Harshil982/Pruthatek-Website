@@ -1,0 +1,32 @@
+[
+    {
+        "imgPath" : "Pictures/bcont_3.png",
+        "title" : "Strong Project and Process Management",
+        "benefit" : "Our project managers act as a focal point for all your project-related needs. Project managers are involved in the entire project lifecycle to plan, organize, control and deploy key milestones, deliverables according to your goals. Plus allPruthatek's projects are supervised by our CTO, who is responsible for processes audit and enforcement, as well as formeasurement of existing processes against established metrics and process improvements analysis and implementation."
+    },
+    {
+        "imgPath" : "Pictures/bcont_3.png",
+        "title" : "In-Depth Requirements Analysis",
+        "benefit" : "Here at PruthaTek we pay special attention to the discovery phase to ensure that the final product fully meets your expectations. Pruthatek's Business Analysts define easier ways to attain what you need, while Project Managers identify the most suitable development methodology and cooperation model, as well as assemble the most effective project team, and the tech experts work on technical feasibility and select the most efficient technologies."
+    },
+    {
+        "imgPath" : "Pictures/bcont_3.png",
+        "title" : "Thorough Quality",
+        "benefit" : "We have an independent QA department responsible for providing quality assurance throughout the entire Software Development Lifecycle of every project. Depending on the size of the latter, we allocate a testing team and define a QA timeframe, which allows us to optimize involvement and project costs. Though independent by virtue of their duties, our QA experts work in close cooperation with our development team."
+    },
+    {
+        "imgPath" : "Pictures/bcont_3.png",
+        "title" : "Knowledge to build on",
+        "benefit" : "Since our inception in 1999, we have been building up a knowledge base by working on hundreds of development projects. We have absorbed the best approaches to achieve maximum performance and the highest quality when delivering projects, avoiding redundant complexity that affects both budget and timing."
+    },
+    {
+        "imgPath" : "Pictures/bcont_3.png",
+        "title" : "DevOps and continuous Delivery",
+        "benefit" : "We are embracing DevOps to ensure the synergy between development and operations by paying close attention to key pain points in your DevOps needs and automating end-to-end delivery processes while ensuring scalability and security of your infrastructure."
+    },
+    {
+        "imgPath" : "Pictures/bcont_3.png",
+        "title" : "Transperent Communication",
+        "benefit" : "Transparency enables both you and us to see at a glance, whether we are on track to meet the goals or are blocked on one or more directions, and eliminate these blockers. That is why right at the project launch we agree with you on a communication plan tailored to your needs to work on different levels - from core team to management stakeholders."
+    }
+]

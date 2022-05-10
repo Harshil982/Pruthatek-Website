@@ -1,24 +1,28 @@
 [
     {
-        "imgPath" : "Pictures/QM_1.png",
+        "imgPath" : "Pictures/blogCard-1.jpg",
+        "tempImg" : "Pictures/hoverCard-1.jpg",
         "title": "How to develop a successful on-demand delivery app ?",
         "date" : "07 May 2022",
         "shortdesc" : "Since the on-demand app has come into the market, we have an on-demand app service provider for various industries and provide seamless on-demand app development from the brief"
     },
     {
-        "imgPath" : "Pictures/QM_1.png",
+        "imgPath" : "Pictures/blogCard-2.jpg",
+        "tempImg" : "Pictures/hoverCard-2.jpg",
         "title": "Which are Top 20 Android App Development Trends to Look Out ?",
         "date" : "07 May 2022",
         "shortdesc" : "While updating with the technology changes, there is samhthing positive that is precious for businesses and clients."
     },
     {
-        "imgPath" : "Pictures/QM_1.png",
+        "imgPath" : "Pictures/blogCard-3.jpg",
+        "tempImg" : "Pictures/hoverCard-3.jpg",
         "title": "Need for Retail Apps To Stay On Track Post Covid-19",
         "date" : "07 May 2022",
         "shortdesc" : "Pandemic has squeezed the reset button in our lives. Everything has changed and adjusted to a socially far off the climate from accepted practices to shopping propensities."
     },
     {
-        "imgPath" : "Pictures/QM_1.png",
+        "imgPath" : "Pictures/blogCard-4.jpg",
+        "tempImg" : "Pictures/hoverCard-1.jpg",
         "title": "Top-10 Common UX-Design Mistakes To Avoid When Developing an App",
         "date" : "07 May 2022",
         "shortdesc" : "in the present era of digitalization and high competition, it is not easy to hold a position and assemble a popular brand personality with client experience (ux) design."

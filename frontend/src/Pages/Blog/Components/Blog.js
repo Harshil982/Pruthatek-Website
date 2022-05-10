@@ -46,7 +46,7 @@ function Blog(props) {
             <div className="hover-cards-container">
                 {blogsData.slice(0, 3).map((blog, index) => (
                     <div className="hover-cards">
-                        <img src="Pictures/img2.png" alt="hover-images" />
+                        <img src={blog.tempImg} alt="hover-images" />
                         <div className="hover-card-data">
                             <p>{blog.title}</p>
                             <Hzline />
