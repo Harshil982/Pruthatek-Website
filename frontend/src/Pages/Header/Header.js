@@ -81,7 +81,7 @@ const Header = () => {
       </nav> */}
 
       <div className="container-fluid header-class ">
-        <img src="/Pictures/logo.png" alt="logo" className="img-fluid pointer" width="200px" />
+        <img src="/Pictures/logo.png" alt="logo" className="img-fluid pointer company-logo-header" width="200px" />
         <input type="checkbox" id="menu-bar" />
         <label for="menu-bar"><GiHamburgerMenu /></label>
         <nav className="navbar-pt">

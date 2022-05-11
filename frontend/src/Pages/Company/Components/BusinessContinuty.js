@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './../Styles/QualityManagement.css'
 import './../Styles/BusinessContinuty.css'
 import CommonCard from './CommonCard';
@@ -9,6 +9,9 @@ import MainInfo from './MainInfo';
 
 function BusinessContinuty(props) {
     document.title = "Business Continutiy"
+    useEffect(() => {
+        window.scrollTo(0,0)
+    })
     const mainInfoData = {
         imgPath : "Pictures/QM_1.png",
         Desc: ["PruthaTek maintains a comprehensive, thoughtful process that ensures business continuity and ultimate reliability.", "Product lifecycle monitoring to ensure compliance with established processes and guidelines.", "Product quality verification and validation to ensure that it complies with crents ousness teads and expectations.", "Establishment of an effective collaboration between all project team members."]

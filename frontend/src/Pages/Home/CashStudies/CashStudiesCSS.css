@@ -162,6 +162,15 @@
     display: block;
 }
 
+.slide-animation
+{
+    animation: move 25s linear infinite;
+}
+@keyframes move{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%);}
+}
+
 /*  ::::: ----- Responsive Design ----- :::::   */
 /*  :::   1440px   :::  */
 @media(max-width: 1440px) {

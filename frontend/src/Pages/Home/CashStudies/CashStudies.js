@@ -117,18 +117,21 @@ function CashStudies() {
     });
 
     return (
-        <section className='cash-studies'>
-            <div className="information dfc">
-                <h3>Case Studies</h3>
-                <p>Explore how Pruthatek shaped multiple businesses with creativity and innovative technology.</p>
-            </div>
-            <div className='imageSlider'>
-                {images}
-            </div>
-            <div className='hoverImages'>
-                {blackImages}
-            </div>
-        </section>
+            <section className='cash-studies'>
+                <div className="information dfc">
+                    <h3>Case Studies</h3>
+                    <p>Explore how Pruthatek shaped multiple businesses with creativity and innovative technology.</p>
+                </div>
+                <div className='imageSlider'>
+                    {images}
+                </div>
+                <marquee>
+                <div className='hoverImages'>
+                    {blackImages}
+                </div>
+                </marquee>
+            </section>
+        
     );
 }
 

@@ -15,13 +15,14 @@
 
 /*  ---- Blog Card ----  */
 .blog-post .blog-cards{
-    margin: 70px 0 60px;
+    /* margin: 70px 0 60px; */
+    margin: 2vw 6vw;
     column-gap: 60px;
 }
 
 /*   ---- Blog Card Card ----   */
 .blog-post .card{
-    width: 280px;
+    width: 27vw;
     background: rgba(255, 255, 255, .1);
     border: none;
     border-radius: 15px;
@@ -72,6 +73,11 @@
     font-weight: bold;
     color: var(--drk-blue);
 }
+.blog-post .card .profile .profile-info p:first-child
+{
+    margin-bottom: 0vw !important;
+}
+
 .blog-post .card .profile .profile-info p.dt{
     font-size: 10px;
     font-weight: normal;

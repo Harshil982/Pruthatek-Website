@@ -11,6 +11,7 @@ import FAQs from "./FAQs/faq";
 import CashStudies from "./CashStudies/CashStudies";
 
 function HomePage() {
+  document.title = "PruthaTek"
     return (
       <>
         <PlanningBusiness />

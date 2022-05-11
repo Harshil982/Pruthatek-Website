@@ -26,12 +26,12 @@ function CustomSDC(){
         },
         {
             imgSrc: 'Pictures/5.png',
-            title: "Enterprise Software Development",
+            title: "Artificial Intelligence",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
         {
             imgSrc: 'Pictures/6.png',
-            title: "Enterprise Software Development",
+            title: "Machine Learning",
             description: "Finance, planning, forecasting and adjusting rapidly with customer demands and budgets."
         },
     ];
@@ -49,13 +49,13 @@ function CustomSDC(){
 
     return(
         <section className="CustomSDC">
-            <div className="information dfc">
+            <div className="information">
                 <h3>Pruthatek Custom Software Development Company</h3>
                 <p>We provide excellent and superior web and mobile app development with a worldwide presence, with top - notch technology. Pruthatek serves 
                 customes with a vision to achieve a milestone by giving unique features - rich application that carefully meet the business necessities. 
                 We are a full - cycle web and mobile application development company creating the best solutions for mobile apps, web apps and more.</p>
             </div>
-            <div className='Cards w100'>
+            <div className='custom-flex-cont'>
                 {cards}
             </div>
         </section>
