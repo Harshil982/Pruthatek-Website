@@ -1,0 +1,129 @@
+.pruthatek-clients
+{
+    margin-top: 1vw;
+    position: relative;
+    overflow: hidden;
+}
+.blob
+{
+    position: absolute;
+    top: -22vw;
+    /* background-color: red; */
+    left: -90vw;
+    transform: scale(0.20,0.27);
+}
+.blob-2
+{
+    position: absolute;
+    top: -22vw;
+    /* background-color: red; */
+    right: -89vw;
+    transform: scale(0.20,0.27);
+}
+.pruthatek-clients .QMA-tasks
+{
+    margin-top: 7vw;
+}
+.clients-list
+{
+    margin-top: 10vw;
+    padding: 10vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 30px;
+    /* overflow: hidden; */
+    overflow-x: scroll;
+}
+.clients-list::-webkit-scrollbar
+{
+    display: none;
+}
+.clients-list .client
+{
+    min-width: 25vw;
+    padding: 3vw;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+.clients-list .client img
+{
+    width: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 770px)
+{
+    .blob
+    {
+        position: absolute;
+        top: -12vw;
+        /* background-color: red; */
+        left: -90vw;
+        transform: scale(0.20,0.27);
+    }
+    .blob-2
+    {
+        position: absolute;
+        top: -12vw;
+        /* background-color: red; */
+        right: -89vw;
+        transform: scale(0.20,0.27);
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .client
+    {
+        min-width: 30vw !important;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .clients-list .client img
+    {
+        width: 35vw;
+    }
+    .client
+    {
+        height: 40vw !important;
+    }
+    .pruthatek-clients .QMA-tasks
+    {
+        margin-top: 22vw;
+        text-align: center;
+    }
+    .clients-list
+    {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin-top: 0vw;
+        padding-top: 0vw;
+    }
+    .client
+    {
+        height: 66vw;
+        margin-top: 8vw;
+    }
+    .blob
+    {
+        position: absolute;
+        top: 42vw;
+        /* background-color: red; */
+        /* left: -90vw; */
+        transform: scale(0.30,0.37);
+    }
+    .blob-2
+    {
+        position: absolute;
+        top: 62vw;
+        /* background-color: red; */
+        right: -89vw;
+        transform: scale(0.30,0.37);
+    }
+}

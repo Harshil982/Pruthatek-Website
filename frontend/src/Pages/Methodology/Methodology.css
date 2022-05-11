@@ -1,0 +1,146 @@
+.methodology .QMA-tasks
+{
+    margin-top: 7vw;
+    width: 28vw;
+}
+.methodology .flex-container .common-card
+{
+    width: 26vw;
+    margin-top: 6vw;
+}
+.key-benefits h2
+{
+    text-align: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 2.4vw;
+}
+.benefits-container
+{
+    /* margin-top: 4vw; */
+    padding: 4vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 30px;
+    /* overflow: hidden; */
+    overflow-x: scroll;
+}
+.benefits-container::-webkit-scrollbar
+{
+    display: none;
+}
+.benefit-card
+{
+    min-width: 32vw;
+    max-width: 32vw;
+    box-shadow: 0px 0px 12px gray;
+    padding: 2vw;
+    border-radius: 17px;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    /* transform: scale(0.8,0.8); */
+}
+.benefit-card img
+{
+    width: 12vw;
+    margin-left: calc(50% - 6vw);
+}
+.benefit-title
+{
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.benefit-card p:last-child
+{
+    font-size: 1vw;
+    color: rgb(34, 21, 21);
+}
+@media only screen and (max-width : 1024px) {
+    .methodology .QMA-tasks p
+    {
+        font-size: 1.2vw;
+        margin-top: 1vw;
+    }
+}
+@media only screen and (max-width : 768px)
+{
+    .key-benefits h2
+    {
+        font-size: 2.6vw;
+        margin-top: 10vw;
+    }
+    .benefit-title
+    {
+        font-size: 1.7vw;
+    }
+    .benefit-card p:last-child
+    {
+        font-size: 1.3vw;
+    }
+}
+@media only screen and (max-width : 599px) {
+    .methodology .QMA-tasks p
+    {
+        width: 38vw;
+        font-size: 1.4vw;
+        margin-top: 2vw;
+        margin-left: -5vw;
+    }
+}
+@media only screen and (max-width : 500px) {
+    .methodology .QMA-tasks p
+    {
+        width: 80vw;
+        font-size: 2.4vw;
+        margin-top: 16vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .methodology .flex-container .common-card
+    {
+        width: 66vw;
+    }
+    .methodology .flex-container .common-card img
+    {
+        height: 28vw;
+        width: 28vw;
+        margin-left: calc(50% - 14vw);
+    }
+    .methodology .flex-container .common-card p:first-child
+    {
+        font-size: 3.8vw;
+    }
+    .methodology .flex-container .common-card p:last-child
+    {
+        font-size: 2.5vw;
+    }
+    .benefits-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .benefit-card
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7vw;
+        min-width: 60vw;
+        max-width: 60vw;
+    }
+    .key-benefits h2
+    {
+        font-size: 4vw;
+    }
+    .benefit-title
+    {
+        font-size: 2.6vw;
+    }
+    .benefit-card p:last-child
+    {
+        font-size: 1.8vw;
+    }
+}

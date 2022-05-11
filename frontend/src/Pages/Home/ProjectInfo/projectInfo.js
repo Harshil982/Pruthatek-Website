@@ -1,23 +1,23 @@
 import '../vars.css';
-import img from '../ProjectInfo/img.jpeg';
+// import img from '../ProjectInfo/img.jpeg';
 import '../ProjectInfo/projectInfoCSS.css';
 
 function ProjectInfo(){
     const info = [
         {
-            count: '000',
+            count: '07',
             title: 'Projects Completed'
         },
         {
-            count: '000',
+            count: '03',
             title: 'Active Clients'
         },
         {
-            count: '000',
+            count: '15',
             title: 'Cups of Coffee'
         },
         {
-            count: '000',
+            count: '10',
             title: 'Happy Clients'
         },
     ];

@@ -53,9 +53,15 @@
         padding-top: 5vw;
         padding-bottom: 5vw;
     }
+    .common-card img
+    {
+        height: 23vw;
+        width: 23vw;
+        margin-left: calc(50% - 11.5vw);
+    }
     .desc-title
     {
-        font-size: 3vw;
+        font-size: 3.6vw;
     }
     .common-card-desc p:last-child
     {

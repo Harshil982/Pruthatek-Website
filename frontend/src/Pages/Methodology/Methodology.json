@@ -1,0 +1,17 @@
+[
+    {
+        "imgPath" : "Pictures/bcont_2.png",
+        "title" : "Isolated Scrums",
+        "desc": "Teams are isolated across different locations. Some teams may not be using Agile."
+    },
+    {
+        "imgPath" : "Pictures/bcont_2.png",
+        "title" : "Distributed Scrum of Scrums",
+        "desc": "Cross-functional Scrum teams are isolated across locations and integrated by a Scrum-of-Scrums that meets regularly across locations."
+    },
+    {
+        "imgPath" : "Pictures/bcont_2.png",
+        "title" : "Totally Integrated Scrums",
+        "desc": "Scrum team members are distributed across locations."
+    }
+]

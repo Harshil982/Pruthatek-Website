@@ -43,24 +43,26 @@
     border-radius: 12px;
     position: relative;
     margin-left: 5vw;
+    overflow: hidden;
 }
 .hover-cards img
 {
     border-radius: 18px;
     width: 100%;
+    height: 100%;
 }
 .hover-card-data
 {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     font-size: 1vw;
     color: white;
-    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(255, 166, 0, 0.24));
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(255, 8, 0, 0.24));
     padding : 15vw 2vw 0vw 2vw;
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
     opacity: 0;
     transform: translateY(50px);
     transition: all 500ms;
@@ -68,12 +70,12 @@
 .hover-cards:nth-child(2) .hover-card-data
 {
     padding : 15vw 2vw 0vw 2vw;
-    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(255, 8, 0, 0.24));
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(0, 81, 255, 0.24));
 }
 .hover-cards:nth-child(3) .hover-card-data
 {
     padding : 15vw 2vw 0vw 2vw;
-    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(0, 81, 255, 0.24));
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(0, 255, 128, 0.24));
 }
 .hover-cards-container
 {
@@ -118,5 +120,9 @@
     .hover-card-data
     {
         font-size: 2.5vw;
+    }
+    .pruthatek-blogs .QMA-tasks
+    {
+        margin-left: 10vw;
     }
 }

@@ -1,0 +1,149 @@
+.get-your-busi
+{
+    margin: 16vw auto 4vw auto;
+    width: 76vw;
+    text-align: center;
+}
+.get-your-busi p
+{
+    margin-top: 1vw;
+}
+.consulting-card-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0vw 5vw;
+}
+.consulting-card
+{
+    margin-top: 4vw;
+    width: 25vw;
+}
+.consultancy-title
+{
+    font-size: 1.5vw;
+}
+.consultancy-desc
+{
+    height: 7vw;
+    font-size: 1vw;
+}
+.consultancy-point
+{
+    font-size: 1vw;
+}
+.consulting-card:nth-child(1) .consultancy-title,
+.consulting-card:nth-child(1) svg
+{
+    color: #F25022;
+}
+.consulting-card:nth-child(2) .consultancy-title,
+.consulting-card:nth-child(2) svg
+{
+    color: #1861AA;
+}
+.consulting-card:nth-child(3) .consultancy-title,
+.consulting-card:nth-child(3) svg
+{
+    color: #8FC320;
+}
+.consulting-card:nth-child(4) .consultancy-title,
+.consulting-card:nth-child(4) svg
+{
+    color: #EFA706;
+}
+.consulting-card:nth-child(5) .consultancy-title,
+.consulting-card:nth-child(5) svg
+{
+    color: #00ccff;
+}
+.AI-consulting h2
+{
+    margin-top: 3vw;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.get-your-busi h2
+{
+    font-size: 2.2vw;
+}
+.get-your-busi p
+{
+    font-size: 1vw;
+}
+@media only screen and (max-width : 768px) {
+    .consulting-card
+    {
+        width: 36vw;
+    }
+    .consulting-card-container
+    {
+        margin: 0vw 9vw;
+    }
+    .consultancy-title
+    {
+        font-size: 2.2vw;
+    }
+    .consultancy-desc
+    {
+        height: 9vw;
+        font-size: 1.4vw;
+    }
+    .consultancy-point
+    {
+        font-size: 1.4vw;
+    }
+    .get-your-busi h2
+    {
+        font-size: 2.4vw;
+    }
+    .get-your-busi p
+    {
+        font-size: 1.3vw;
+    }
+}
+@media only screen and (max-width : 500px)
+{
+    .AI-consulting h2
+    {
+        font-size: 4vw;
+    }
+    .consulting-card
+    {
+        width: 65vw;
+    }
+    .consulting-card-container
+    {
+        justify-content: center;
+        margin: 0vw 0vw;
+    }
+    .consultancy-title
+    {
+        font-size: 3.5vw;
+    }
+    .consultancy-desc
+    {
+        height: auto;
+        font-size: 2.4vw;
+        text-align: justify
+    }
+    .consultancy-point
+    {
+        font-size: 2.4vw;
+    }
+    .get-your-busi
+    {
+        width: 90vw;
+    }
+    .get-your-busi h2
+    {
+        font-size: 3.7vw;
+    }
+    .get-your-busi p
+    {
+        font-size: 1.9vw;
+        margin: 2vw 0vw 4vw 0vw;
+    }
+}

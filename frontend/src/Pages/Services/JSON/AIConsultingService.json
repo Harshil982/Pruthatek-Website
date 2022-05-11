@@ -1,0 +1,32 @@
+[
+    {
+        "consultancyTitle" : "Use Case Definition",
+        "consultancyDesc" : "We Recognize That No Al System Can Run On Poor Or Corrupted Data. That's Why We Audit And Verify Your Data Along With The Related Workflows And Supporting Infrastructure.",
+        "consultancyPoints" : ["Data Collection And Quality Audit","Data Cleaning","Data Integrity Validation","Data Maintenance Automation"]
+    },
+    {
+        "consultancyTitle" : "Data Preparation",
+        "consultancyDesc" : "We Recognize That No Al System Can Run On Poor Or Corrupted Data. That's Why We Audit And Verify Your Data Along With The Related Workflows An Supporting Infrastructure",
+        "consultancyPoints" : ["Data Collection And Quality Audit","Data Cleaning","Data Integrity Validation","Data Maintenance Automation"]
+    },
+    {
+        "consultancyTitle" : "ML Model Development",
+        "consultancyDesc" : "We Offer End-To-End Training Of Machine Learning Models For Their Further Incorporation Into Enterprise Al-Powered Solutions For A Variety Of Use Cases",
+        "consultancyPoints" : ["Data Labeling, Clustering, And Segmentation","Model Testing And Fine-Tuning","Deployment And Integration With","Enterprise Systems"]
+    },
+    {
+        "consultancyTitle" : "All infrastructure Setup",
+        "consultancyDesc" : "We Set Up Resilient Cloud-Based Infrastructures Across Private And Hybrid Environments For Deploying And Running Our Clients' In-House Al Systems.",
+        "consultancyPoints" : ["ML Training Hubs","Big Data Storage","Al Data Pipeline Management"]
+    },
+    {
+        "consultancyTitle" : "AI Software Development",
+        "consultancyDesc" : "Our Company Builds, Customizes, And Redesigns Al-Driven Systems On A Turkey Basis Or As Part Of Your in-House Team At Any Project Stage.",
+        "consultancyPoints" : ["ML Model egration","Multi-Platform Applications","UX/UI Design And Usability Testing","Continuous Improvement"]
+    },
+    {
+        "consultancyTitle" : "Use Training & Support",
+        "consultancyDesc" : "As An Option, We Provide Post-Deployment User Training Sessions To Minimize Users' Initial Adoption Barriers And Maximize Buy-In. We Also Provide Continuous Technical Support Services At All Levels.",
+        "consultancyPoints" : ["User Guides","On-Site And Remote Product Demonstration", "User Feedback And Request Processing","Technical Support"]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "imgPath" : "Pictures/AI-2.png",
+        "title" : "AI For Sales",
+        "desc" : "With Al for marketing and sales, enhance your business accuracy & predictability capabilities and get all potential leads into customers. Al powered technology assists businesses to get more potent in offering solutions."
+    },
+    {
+        "imgPath" : "Pictures/AI-3.png",
+        "title" : "Decision Management",
+        "desc" : "For efficient business-based decisions and a decision making process, we assist customers with Al algorithms and predictive systems to make available business decisions."
+    },
+    {
+        "imgPath" : "Pictures/AI-3-1.png",
+        "title" : "AI-Based Developement",
+        "desc" : "Using technology to its maximum & proven strategies, our experienced group of developers builds Al-based applications that concession enterprises to grow broadly."
+    },
+    {
+        "imgPath" : "Pictures/AI-4.png",
+        "title" : "Customer Retension",
+        "desc" : "Customer retention is essential for any business. By recognizing unsatisfied customers and take immediate steps in the right way is what drives business."
+    },
+    {
+        "imgPath" : "Pictures/AI-5.png",
+        "title" : "Strategy & Consulting",
+        "desc" : "We believe in proven methodologies, and with technical know-how, we enable our team to transform your business with great benefits. The competitive world asks for better strategies, and our consulting services are here to meet your business targets."
+    },
+    {
+        "imgPath" : "Pictures/AI-6.png",
+        "title" : "Customized Services",
+        "desc" : "Al platform services can be customized for your business requirements. We understand the challenges and offer the best solution with multiple benefits without any discrepancies for diverse needs."
+    }
+]
