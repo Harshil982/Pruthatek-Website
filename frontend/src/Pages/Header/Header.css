@@ -165,25 +165,3 @@
     left: 0rem;
   }
 }
-
-@media only screen and (max-width : 768px) 
-{
-  .company-header-logo
-  {
-    width: 28vw;
-  }  
-}
-@media only screen and (max-width : 500px) 
-{
-  .company-header-logo
-  {
-    width: 35vw;
-  }  
-}
-@media only screen and (max-width : 425px) 
-{
-  .company-header-logo
-  {
-    width: 45vw;
-  }  
-}
