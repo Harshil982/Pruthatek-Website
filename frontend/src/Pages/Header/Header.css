@@ -4,13 +4,11 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-
 .header-class {
   position: absolute;
   top: 0;
   left: 0;
   background-color: #ffffff;
-  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
   padding: 0px 7%;
   display: flex;
   align-items: center;
@@ -18,10 +16,12 @@
   z-index: 1000;
   padding-top: 0.5vw;
 }
-.company-logo-header
+
+.company-header-logo
 {
-  width: 21vw;
+  width: 19vw;
 }
+
 .navbar-pt ul {
   list-style: none;
 }
@@ -39,9 +39,8 @@
 }
 
 .navbar-pt ul li a:hover {
-  background-color: rgb(4, 39, 121);
   text-decoration: underline;
-  color: #fff;
+  color: blue;
 }
 
 .navbar-pt ul li ul {
@@ -87,7 +86,6 @@
 }
 
 .development-border:hover {
-  background-color: #fff !important;
   cursor: text;
   color: #333;
   text-decoration: none !important;
@@ -100,7 +98,6 @@
   }
   
   .testing-border:hover {
-    background-color: #fff !important;
     cursor: text;
     color: #333;
     text-decoration: none !important;
@@ -112,11 +109,14 @@
   }
   
   .Data-border:hover {
-    background-color: #fff !important;
     cursor: text;
     color: #333;
     text-decoration: none !important;
   }
+
+  /* .img-w{
+    width: 22vw;
+  } */
 
 
 /* Media Queries */
@@ -160,4 +160,30 @@
   .navbar-pt ul li a {
     font-size: 20px;
   }
+
+  .navbar-pt ul li ul {
+    left: 0rem;
+  }
+}
+
+@media only screen and (max-width : 768px) 
+{
+  .company-header-logo
+  {
+    width: 28vw;
+  }  
+}
+@media only screen and (max-width : 500px) 
+{
+  .company-header-logo
+  {
+    width: 35vw;
+  }  
+}
+@media only screen and (max-width : 425px) 
+{
+  .company-header-logo
+  {
+    width: 45vw;
+  }  
 }

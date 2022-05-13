@@ -6,6 +6,12 @@
     column-gap: 60px;
     overflow: hidden;
 }
+.counter
+{
+    /* color: red; */
+    align-items: center;
+    font-size: 2vw;
+}
 
 .project-info div.df{
     column-gap: 30px;

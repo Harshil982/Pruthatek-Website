@@ -1,6 +1,7 @@
-.cash-studies{
-    height: 100vh;
-}
+
+/* .cash-studies{
+    /* height: 100vh; 
+} */
 
 /*  Information  */
 .cash-studies .information{
@@ -51,7 +52,54 @@
 .cash-studies .hoverImages .colorImg{
     display: none;   
 }
-
+/* ----------CASE CARD----------- */
+.case-slick
+{
+    margin: 1vw 4vw 2vw 7vw;
+}
+.case-card
+{
+    background-color: gray;
+    width: 20vw !important;
+    position: relative;
+}
+.case-card img
+{
+    width: 100%;
+}
+.case-card-content
+{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(360deg,rgba(255, 0, 0, 0.342),rgba(255, 0, 0, 0.342),rgba(255, 255, 255, 0.185),rgba(255, 255, 255, 0.0116));
+    padding-top: 70%;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 600ms;
+    padding-left: 1vw;
+    padding-bottom: 3vw;
+    padding-right: 1vw;
+}
+.case-card-content h3
+{
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+.case-card-content p
+{
+    font-size: 0.9vw;
+}
+.case-card:hover .case-card-content
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.slick-arrow,.slick-next
+{
+    display: none !important;
+}
 
 .cash-studies .imageSlider .cashStudiesCard{
     position: relative;
@@ -220,7 +268,59 @@
         padding: 20px 22px;
     }
 }
-
+@media(max-width: 768px)
+{
+    .slick-slider
+    {
+        padding-left: 6vw;
+    }
+    .case-slick
+    {
+        margin: 0vw;
+    }
+    .case-card
+    {
+        width: 28vw !important;
+    }
+    .case-card-content
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    .case-card-content h3
+    {
+        font-size: 2vw;
+    }
+    .case-card-content p
+    {
+        font-size: 1.3vw;
+    }
+}
+@media(max-width: 600px)
+{
+    .case-slick
+    {
+        margin-top: 5vw;
+    }
+    .case-card
+    {
+        width: 41vw !important;
+    }
+    .case-card-content
+    {
+        opacity: 1;
+        transform: translateY(0px);
+        padding-left: 3vw;
+    }
+    .case-card-content h3
+    {
+        font-size: 2.5vw;
+    }
+    .case-card-content p
+    {
+        font-size: 1.6vw;
+    }
+}
 
 
 /*  :::   520px   :::  */
@@ -262,6 +362,27 @@
     .cash-studies .imageSlider .cashStudiesCard p{
         font-size: 12px;
         padding: 17px 20px;
+    }
+    .case-card
+    {
+        width: 70vw !important;
+    }
+    .case-slick
+    {
+        padding-left: 10vw !important;
+    }
+    .case-card-content
+    {
+        padding-bottom: 9vw;
+    }
+    .case-card-content h3
+    {
+        font-size: 4vw;
+    }
+    .case-card-content p
+    {
+        padding-top: 2vw;
+        font-size: 3vw;
     }
 }
 
