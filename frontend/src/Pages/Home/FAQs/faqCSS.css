@@ -1,24 +1,24 @@
-.FAQ{
+/* .FAQ{
     margin: 100px 0 80px;
 }
 .FAQ h2{
     font-size: 34px;
     font-family: var(--font-b);
     margin-bottom: 5px;
-}
+} */
 
 /*  Questions List  */
-.FAQ .questions-list{
+/* .FAQ .questions-list{
     padding: 30px 0 0;
 }
 
 .FAQ .questions-list hr{
     border: none;
     border-bottom: 1px solid var(--grey);
-}
+} */
 
 /*  FAQ Questions List  */
-.FAQ .questions-list{
+/* .FAQ .questions-list{
     color: var(--grey);
     width: 91%;
     margin-left: 4.5%;
@@ -50,10 +50,10 @@
     -ms-user-select: none;
     user-select: none;
     transition: .5s ease;
-}
+} */
 
 /*  Appear on click */
-.trans-appear {
+/* .trans-appear {
     opacity: 0;
     z-index: 1;
 }
@@ -64,10 +64,10 @@
 
 .FAQ .questions-list .que .FAQanswer p{
     font-size: 14px;
-}
+} */
 
 /*  Answers Color    */
-.FAQ .questions-list .que:nth-child(1) p{
+/* .FAQ .questions-list .que:nth-child(1) p{
     color: var(--drk-blue);
 }
 .FAQ .questions-list .que:nth-child(3) p{
@@ -81,11 +81,11 @@
 }
 .FAQ .questions-list .que:nth-child(9) p{
     color: var(--black);
-}
+} */
 
 
 /*  Buttons Background Color    */
-.FAQ .questions-list .que:nth-child(1)  h4{
+/* .FAQ .questions-list .que:nth-child(1)  h4{
     background-color: var(--drk-blue);
 }
 .FAQ .questions-list .que:nth-child(3)  h4{
@@ -99,31 +99,31 @@
 }
 .FAQ .questions-list .que:nth-child(9)  h4{
     background-color: var(--grey);
-}
+} */
 
 /*  ::::: ----- Responsive Design ----- :::::   */
 /*  :::   998px   :::  */
-@media (max-width: 998px) {
+/* @media (max-width: 998px) {
     .FAQ{
         margin: 70px 5px 80px;
     }
     .FAQ .questions-list hr{
         border-bottom: .5px solid var(--grey);
     }
-}
+} */
 
 /*  :::   798px   :::  */
-@media (max-width: 798px) {
+/* @media (max-width: 798px) {
     .FAQ h2{
         margin-bottom: 0;
     }
     .FAQ .questions-list .que h3{
         font-size: 15px;
     }
-}
+} */
 
 /*  :::   768px   :::  */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .FAQ{
         margin: 60px 5px 65px;
     }
@@ -133,10 +133,10 @@
     .FAQ .questions-list .que h3{
         font-size: 14.5px;
     }
-}
+} */
 
 /*  :::   520px   :::  */
-@media (max-width: 520px) {
+/* @media (max-width: 520px) {
     .FAQ{
         margin: 65px 5px;
     }
@@ -151,10 +151,10 @@
     .FAQ .questions-list .que .FAQanswer p{
         max-width: 425px;
     }
-}
+} */
 
 /*  :::   425px   :::  */
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .FAQ h2{
         font-size: 30px;
         margin-bottom: -15px;
@@ -169,10 +169,10 @@
     .FAQ .questions-list .que h4 i{
         margin-left: -1px;
     }
-}
+} */
 
 /*  :::   375px   :::  */
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     .FAQ h2{
         font-size: 28px;
     }
@@ -186,11 +186,11 @@
     .FAQ .questions-list .que h4 i{
         margin-left: 1px;
     }
-}
+} */
 
 
 /*  :::   325px   :::  */
-@media (max-width: 325px) {
+/* @media (max-width: 325px) {
     .FAQ{
         margin: 60px 10px 55px;
     }
@@ -200,5 +200,88 @@
     .FAQ .questions-list .que h3,
     .FAQ .questions-list .que .FAQanswer p{
         max-width: 250px;
+    }
+} */
+.frequent-ask-que
+{
+    margin: 4vw 6vw;
+    background-color: rgba(255, 0, 0, 0);
+}
+.frequent-ask-que h2
+{
+    text-align: center;
+    margin-bottom: 4vw;
+}
+.row-title
+{
+    transition: 300ms;
+}
+.row-title .row-title-text
+{
+    padding: 1px 20px;
+}
+/* .frequent-ask-que .faq-row-wrapper .faq-body
+{
+    border: 1px solid gray;
+} */
+.frequent-ask-que .faq-row-wrapper .faq-body .faq-row .row-content
+{
+    padding: 1px 20px;
+}
+.row-title:hover
+{
+    background-color: #1861AA;
+}
+.row-title:hover .row-title-text
+{
+    color: white;
+}
+.frequent-ask-que .row-content-text
+{
+    font-size: 1.1vw !important;
+}
+.arrow-image
+{
+    /* background-color: red; */
+    border-radius: 50%;
+}
+@media only screen and (max-width: 768px)
+{
+    .frequent-ask-que
+    {
+        margin: 4vw 7vw;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    .frequent-ask-que h2
+    {
+        font-size: 3vw;
+    }
+    .frequent-ask-que .row-title-text
+    {
+        font-size: 2vw;
+    }
+    .frequent-ask-que .row-content-text
+    {
+        font-size: 1.8vw !important;
+    }
+}
+@media only screen and (max-width: 426px)
+{
+    .frequent-ask-que
+    {
+        margin: 9vw 2vw;
+    }
+    .frequent-ask-que h2
+    {
+        font-size: 4vw;
+    }
+    .frequent-ask-que .row-title-text
+    {
+        font-size: 3.3vw;
+    }
+    .frequent-ask-que .row-content-text
+    {
+        font-size: 2.7vw !important;
+        color: red;
     }
 }

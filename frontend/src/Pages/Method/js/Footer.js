@@ -15,6 +15,7 @@ const Footer = () => {
     <>
       <div className="footer_bg">
         <div className="container mt-5">
+        <img src="/Pictures/logo.png" alt="logo" className="img-fluid pointer company-header-logo"/>
           <footer className="pt-5">
             <div className="row justify-content-evenly">
               <div className="col-12 col-sm-6 col-md-4 col-lg-1 col-xl-1 my-3 text-center text-sm-start text-md-start text-lg-start text-xl-start">
@@ -190,7 +191,7 @@ const Footer = () => {
               <p>
                 <span className="text-secondary">All rights reserved</span>
                 &nbsp;&nbsp;
-                <span>&copy; PruthaTek Market Pvt. Ltd. 2021</span>
+                <span>&copy; Prutha TechnoMarket Pvt. Ltd. 2022</span>
               </p>
             </div>
           </footer>

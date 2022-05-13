@@ -1,11 +1,14 @@
 .someInfo-1,
 .someInfo-2{
-    height: 80vh;
-    margin: 0 0 30px;
+    /* height: 80vh; */
+    /* margin: 0 0 30px; */
     padding: 0 100px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 .someInfo-2{
     margin: 0;
+    margin: 2vw 0vw 4vw 0vw;
 }
 
 /*  Division with an image  */
@@ -19,12 +22,12 @@
 /*  Division to create a blurry border  */
 .someInfo-1 .divWithImage .image,
 .someInfo-2 .divWithImage .image{
-    width: 250px;
-    height: 250px;
+    width: 22vw;
+    height: 22vw;
     background-color: rgba(255, 255, 255, .1);
     border: 1px solid rgb(238, 238, 238);
     border-radius: 50px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
 }
 .someInfo-2 .divWithImage .image{
     margin-top: -72%;
@@ -34,24 +37,24 @@
 /*  Main Image  */
 .someInfo-1 div img,
 .someInfo-2 div img{
-    width: 190px;
-    height: 190px;
+    width: 18vw;
+    height: 18vw;
     z-index: 11;
 }
 
 /*  Rectangle Back design   */
 .someInfo-1 .backDesign{
-    width: 230px;
-    height: 230px;
-    border-radius: 50px;
+    height: 18vw;
+    width: 18vw;
+    border-radius: 28px;
     background: linear-gradient(rgb(175, 187, 255), rgb(238, 202, 255));
-    margin-left: 30%;
-    margin-top: -72%;
+    margin-left: 35%;
+    margin-top: -60%;
 }
 .someInfo-2 .backDesign{
-    width: 230px;
-    height: 230px;
-    border-radius: 50px;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 28px;
     background-color: rgb(199, 207, 253);
 }
 
@@ -68,8 +71,8 @@
 
 .someInfo-1 .information h3,
 .someInfo-2 .information h3{
-    width: 70%;
-    font-size: 24px;
+    width: 100%;
+    font-size: 1.4vw;
     margin-bottom: 15px;
     color: var(--black);
 }
@@ -77,14 +80,14 @@
     width: 100%;
 }
 .someInfo-1 .information p{
-    font-size: 12px;
+    font-size: 0.9vw;
 }
 .someInfo-2 .information p{
     width: 90%;
-    font-size: 13px;
+    font-size: 0.9vw;
 }
 .someInfo-1 .information h5{
-    font-size: 17px;
+    font-size: 1.1vw;
     margin: 15px 0 12px;
     font-weight: 600;
 }
@@ -93,7 +96,8 @@
 /*  :::   1080p   :::  */
 @media(max-width: 1080px) {
     .someInfo-1{
-        margin: 20px 0 0;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
     }
     .someInfo-1 .information{
         width: 42%;
@@ -111,20 +115,32 @@
 
 /*  :::   798px   :::  */
 @media(max-width: 798px) {
+    .someInfo-1
+    {
+        padding: 0vw 5vw;
+    }
     .someInfo-1 .information{
-        width: 45%;
+        width: 100% !important;
         margin-left: 20%;
+        margin-top: 2vw;
     }
     .someInfo-1 .information h3{
-        width: 80%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 2vw;
     }
     .someInfo-2 .information h3{
         width: 90%;
-        font-size: 19px;
+        font-size: 1.6vw;
+    }
+    .someInfo-2 .information p{
+        width: 90%;
+        font-size: 1.2vw;
     }
     .someInfo-1 .information h5{
-        font-size: 15px;
+        font-size: 1.6vw;
+    }
+    .someInfo-1 .information p{
+        font-size: 1.2vw;
     }
     .someInfo-1 .divWithImage{
         margin-left: 0%;
@@ -150,42 +166,54 @@
 /*  :::   768px   :::  */
 @media(max-width: 768px) {
     .someInfo-1{
-        margin: 0;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
     }
     .someInfo-1 .divWithImage{
         margin-left: 5%;
     }
     .someInfo-1 .information{
         width: 50%;
-        margin-left: 17%;
+        /* margin-left: 17%; */
     }
     .someInfo-1 .information h3{
         width: 80%;
-        font-size: 20px;
+        font-size: 2.5vw;
         margin-bottom: 10px;
     }
+    .someInfo-2
+    {
+        padding: 0px 2vw;
+    }
     .someInfo-2 .information h3{
-        font-size: 18px;
+        font-size: 2vw;
+    }   
+    .someInfo-2 .information p{
+        font-size: 1.7vw;
     }   
     .someInfo-1 .information h5{
-        font-size: 15px;
+        font-size: 1.7vw;
         margin: 7px 0 10px;
+    }
+    .someInfo-1 .information p{
+        font-size: 1.5vw;
     }
     .someInfo-1 div img,
     .someInfo-2 div img{
-        width: 135px;
-        height: 135px;
+        width: 21vw;
+        height: 21vw;
     }
     .someInfo-1 .divWithImage .image,
     .someInfo-2 .divWithImage .image{
-        width: 180px;
-        height: 180px;
+        width: 25vw;
+        border-radius: 7vw;
+        height: 25vw;
     }
     .someInfo-1 .backDesign,
     .someInfo-2 .backDesign{
-        width: 160px;
-        height: 160px;
-        border-radius: 40px;
+        width: 21vw;
+        height: 21vw;
+        border-radius: 2vw;
     }
 }
 
@@ -223,7 +251,11 @@
     }
     .someInfo-2 .information h3{
         width: 100%;
-        font-size: 20px;
+        font-size: 3.4vw;
+    }
+    .someInfo-2 .information p{
+        width: 100%;
+        font-size: 2.2vw;
     }
     .someInfo-1 .information h5{
         font-size: 16px;

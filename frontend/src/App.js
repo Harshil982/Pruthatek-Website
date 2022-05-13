@@ -18,6 +18,7 @@ import Blog from './Pages/Blog/Components/Blog';
 import Clients from './Pages/Clients/Clients';
 import Methodology from './Pages/Methodology/Methodology';
 import Artificial from './Pages/Services/Components/Artificial'
+import InsightsData from './Pages/Services/Components/InsightsData';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path='/blogs' element={<Blog />} />
           <Route path='/clients' element={<Clients />} />
           <Route path='/Artificial-Intelligence' element={<Artificial />} />
+          <Route path='/Insights-and-Data' element={<InsightsData />} />
         </Routes>
         <Footer />
       </Router>

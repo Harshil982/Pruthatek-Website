@@ -15,18 +15,25 @@
 
 /*  ---- Blog Card ----  */
 .blog-post .blog-cards{
-    margin: 70px 0 60px;
+    /* margin: 70px 0 60px; */
+    margin: 2vw 6vw;
     column-gap: 60px;
 }
 
 /*   ---- Blog Card Card ----   */
-.blog-post .card{
-    width: 280px;
+.blog-post .card
+{
+    width: 27vw;
     background: rgba(255, 255, 255, .1);
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 2.5px rgba(0, 0, 0, .5);
     padding: 15px 20px;
+    transition: transform 700ms;
+}
+.blog-post .card:hover
+{
+    transform: scale(1.03,1.03);
 }
 /*  Blog card header  */
 .blog-post .card .card-header{
@@ -72,10 +79,16 @@
     font-weight: bold;
     color: var(--drk-blue);
 }
+.blog-post .card .profile .profile-info p:first-child
+{
+    margin-bottom: 0vw !important;
+}
+
 .blog-post .card .profile .profile-info p.dt{
     font-size: 10px;
     font-weight: normal;
     color: var(--grey);
+    margin-bottom: 0vw;
 }
 
 /*    Blog Post Button    */
@@ -94,6 +107,10 @@
     background-color: var(--drk-blue);
     color: #FFF;
     font-family: var(--font);
+}
+.blog-post .card h4
+{
+    font-size: 1.4vw;
 }
 
 

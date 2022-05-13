@@ -64,7 +64,7 @@ function ClientsReview(){
     return(
         <section className='client-review'>
             <div className="information dfc">
-                <h2>What Out Clients Have To Say</h2>
+                <h2>What Our Clients Have To Say</h2>
                 <p>Our success is determined on how satisfied our customers are with the service. These reviews say we have stuff to do.</p>
             </div>
             <div className='review'>

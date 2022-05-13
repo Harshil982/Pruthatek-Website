@@ -1,8 +1,47 @@
 import '../vars.css';
 import '../CashStudies/CashStudiesCSS.css';
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function CashStudies() {
     /*  Main Images */
+    const settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 700,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+        pauseOnHover: false,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint: 425,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    };
     const imageSource = [
         {
             img: 'Pictures/img1.png',
@@ -117,18 +156,31 @@ function CashStudies() {
     });
 
     return (
-        <section className='cash-studies'>
-            <div className="information dfc">
-                <h3>Case Studies</h3>
-                <p>Explore how Pruthatek shaped multiple businesses with creativity and innovative technology.</p>
-            </div>
-            <div className='imageSlider'>
-                {images}
-            </div>
-            <div className='hoverImages'>
-                {blackImages}
-            </div>
-        </section>
+            <section className='cash-studies'>
+                <div className="information dfc">
+                    <h3>Case Studies</h3>
+                    <p>Explore how Pruthatek shaped multiple businesses with creativity and innovative technology.</p>
+                </div>
+                <div className="case-slick">
+                <Slider {...settings}>
+                    {imageSource.map((source,index) => (
+                        <div className="case-card">
+                            <img src={source.img} alt={source.heading} />
+                            <div className="case-card-content">
+                                <h3>{source.heading}</h3>
+                                <p>{source.txt}</p>
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
+                </div>
+                <marquee>
+                <div className='hoverImages'>
+                    {blackImages}
+                </div>
+                </marquee>
+            </section>
+        
     );
 }
 
