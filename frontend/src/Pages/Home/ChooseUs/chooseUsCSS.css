@@ -118,8 +118,8 @@
         text-align: center;
     }
     .choose-us .category-cards{
-        width: 65%;
-        margin: 40px 17.5%;
+        width: 80%;
+        margin: 40px 10.5%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
