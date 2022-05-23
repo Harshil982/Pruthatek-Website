@@ -45,43 +45,43 @@ function CashStudies() {
     const imageSource = [
         {
             img: 'Pictures/img1.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "ERP Management System",
+            txt: 'ERP stands for enterprise resource planning , It\'s software that manages a company\'s financials, supply chain,opearations,commerce,reporting , manufacturing,and human resource activities',
         },
         {
             img: 'Pictures/img2.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "Hospital Management System",
+            txt: 'Hospital management system is a computer system that helps manage the information related to health care and aids in the job completion of health care providers effectively. They manage the data related to all departments of healthcare such as Clinical',
         },
         {
             img: 'Pictures/img3.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "Lawyer Management System",
+            txt: 'It is an integrated digital workspace from where you can run your operations, manage your project and matters, and collaborate with the client from anywhere. It gives you instant authorized access from any device, to assign and manage tasks, monitor workflow, documents, dates, notifications.',
         },
         {
             img: 'Pictures/img4.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "E-commerce Management System",
+            txt: 'An ecommerce content management system (CMS) is software that enables ecommerce shop owners to create, edit and publish digital website content without writing any code. It comes with some crucial ecommerce capabilities like product inventory management, shopping cart, shipping and payment gateway integrations.',
         },
         {
             img: 'Pictures/img5.png',
             heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            txt: 'The Exam Management System is designed to manage, track and monitor the examination activities of college universities. An invigilator can use this system to manage his or her duties, such as exchanging assignments, exam planning, creating Exam papers, question bank with their solution, etc.',
         },
         {
             img: 'Pictures/img6.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "Billing Management System",
+            txt: 'It helps the business owner\'s in a comprehensive manner to keep a track of multiple invoices and accounts just by a few clicks on the mouse. It helps in managing chain of stores as well as multiple company billing systems. It also provides recurring service and renting business billing solution.',
         },
         {
             img: 'Pictures/img7.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "Travel and Hospitality",
+            txt: 'The travel and hospitality industry includes a broad range of companies: tour operators, travel consolidators, tourist boards, airlines, cruise lines, railroads, private transportation providers, car rental services, hotels, resorts, lodging, restaurants and other real-estate intensive consumer businesses.',
         },
         {
             img: 'Pictures/img8.png',
-            heading: "Exam Management System",
-            txt: 'Exam Manahgment We\'re full service which means we\'ve got you We\'re full service which means we\'ve got you coverd on design and content right.',
+            heading: "Media and entertainment",
+            txt: 'Media and entertainment includes movies, television shows, radio shows, news, music, magazines and books.',
         },
     ]
 
