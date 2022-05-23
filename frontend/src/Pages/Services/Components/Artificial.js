@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./../Styles/AI.css"
 import AIdata from './../JSON/AIdata.json'
 import CommonCard from '../../Company/Components/CommonCard';
@@ -7,6 +7,9 @@ import ConsltingData from './../JSON/AIConsultingService.json'
 import { GiCheckMark } from 'react-icons/gi';
 
 function AI(props) {
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
     document.title = "Artificial Intelligence"
     return (
         <div className="methodology">
