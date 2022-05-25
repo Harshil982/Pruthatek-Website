@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CommonCard from '../Company/Components/CommonCard';
 import MethodologyData from './Methodology.json'
 import keyBenefits from './keyBenefits.json'
@@ -6,6 +6,9 @@ import './Methodology.css'
 
 function Methodology(props) {
     document.title = "Methodology"
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
     return (
         <div className="methodology">
             {/* ------TITLE------ */}

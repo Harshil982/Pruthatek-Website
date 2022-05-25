@@ -3,6 +3,7 @@
     margin: 16vw auto 4vw auto;
     width: 76vw;
     text-align: center;
+    scroll-behavior: auto;
 }
 .get-your-busi p
 {

@@ -62,6 +62,7 @@
     background-color: gray;
     width: 20vw !important;
     position: relative;
+    overflow: hidden;
 }
 .case-card img
 {
@@ -69,6 +70,7 @@
 }
 .case-card-content
 {
+    width: 100%;
     position: absolute;
     color: white;
     bottom: 0;
@@ -79,8 +81,8 @@
     transform: translateY(30px);
     transition: all 600ms;
     padding-left: 1vw;
-    padding-bottom: 3vw;
-    padding-right: 1vw;
+    padding-bottom: 1.4vw;
+    padding-right: 2vw;
 }
 .case-card-content h3
 {
@@ -351,7 +353,7 @@
 }
 
 /*  :::   425px   :::  */
-@media(max-width: 425px) {
+@media(max-width: 426px) {
     .cash-studies{
         margin-top: 70px;
         margin-bottom: 5px;

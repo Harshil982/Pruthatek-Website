@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './../Styles/Engagement.css'
 import CommonCard from './CommonCard';
 import data from './../JSON/EngagementModelsData.json'
@@ -7,6 +7,9 @@ import MainInfo from './MainInfo';
 
 function Engagement(props) {
     document.title = "Engagement Models"
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
     const mainInfoData = {
         imgPath : "Pictures/engmodel_1.jpg",
         Desc : ["Your business solution should be safe and secure with our expertise in develpoment. at Pruthatek, we deliver secure and quality IT sevices, protecting your critical data with the required technology. we will signing the NDA for all the source code's rights, which will be your after completing the projects."]

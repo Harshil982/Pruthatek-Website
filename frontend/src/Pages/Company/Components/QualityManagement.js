@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './../Styles/QualityManagement.css'
 import CommonCard from './CommonCard';
 import data from './../JSON/QualityManagementData.json'
@@ -7,6 +7,9 @@ import EndingInfo from './EndingInfo';
 
 function QualityManagement(props) {
     document.title = "Quality Management"
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
     const mainInfoData = {
         imgPath : "Pictures/QM_1.png",
         title: "QMS TASKS & OBJECTIVES",

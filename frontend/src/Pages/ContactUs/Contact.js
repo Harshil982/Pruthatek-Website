@@ -5,6 +5,7 @@ import { IoCall } from 'react-icons/io5'
 import { GrMail } from 'react-icons/gr'
 import { ImLocation } from 'react-icons/im'
 import { AiFillTwitterCircle } from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 
 function Contact(props) {
     document.title = "Contact Us"
@@ -77,10 +78,10 @@ function Contact(props) {
 
                     {/* social media handles */}
                     <div className="social-media-handles">
-                        <FaFacebook />
-                        <FaInstagram className="insta" />
-                        <FaLinkedin className="linked-in" />
-                        <AiFillTwitterCircle style={{ color: "skyblue" }} />
+                        <a href="https://www.facebook.com/pruthatek/" target="_blank" > <FaFacebook /> </a>
+                        <a href="https://www.instagram.com/pruthatek/" target="_blank" > <FaInstagram className="insta" /></a>
+                        <a href="https://in.linkedin.com/company/pruthatek" target="_blank"> <FaLinkedin className="linked-in" /> </a>
+                        <a href="https://twitter.com/pruthatek" target="_blank" > <AiFillTwitterCircle style={{ color: "skyblue" }} /> </a>
                     </div>
                 </div>
             </div>
