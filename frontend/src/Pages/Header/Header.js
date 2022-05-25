@@ -10,6 +10,7 @@ const Header = () => {
   return (
     <>
       <div className="container-fluid header-class ">
+        <img src="/Pictures/logo.png" alt="logo" className="img-fluid pointer company-header-logo" width="210vw" />
         <input type="checkbox" id="menu-bar" />
         <label for="menu-bar"><GiHamburgerMenu /></label>
         <nav className="navbar-pt">
