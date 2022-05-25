@@ -19,6 +19,7 @@ import Clients from './Pages/Clients/Clients';
 import Methodology from './Pages/Methodology/Methodology';
 import Artificial from './Pages/Services/Components/Artificial'
 import InsightsData from './Pages/Services/Components/InsightsData';
+import NotFound from './Pages/PageNotFound/NotFound';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path='/clients' element={<Clients />} />
           <Route path='/Artificial-Intelligence' element={<Artificial />} />
           <Route path='/Insights-and-Data' element={<InsightsData />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
