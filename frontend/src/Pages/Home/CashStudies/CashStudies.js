@@ -159,7 +159,7 @@ function CashStudies() {
             <section className='cash-studies'>
                 <div className="information dfc">
                     <h3>Case Studies</h3>
-                    <p>Explore how Pruthatek shaped multiple businesses with creativity and innovative technology.</p>
+                    <p>Explore how Pruthatek shaped multiple businesse with creativity and innovative technology.</p>
                 </div>
                 <div className="case-slick">
                 <Slider {...settings}>
